@@ -94,3 +94,5 @@ w
 G.idea/sonarlint/issuestore/a/4/a4379512543b86217d059701a1c15858c78a9679,9\d\9d2d3bee0fdd30fd420372bc72f0c6a8e26e9e88
 Å
 Q.idea/sonarlint/securityhotspotstore/b/4/b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3,6\b\6bc361fab678f74f7da63b229ace2fc9d3130980
+R
+"HolaMundo/src/PrimitivosFloat.java,1\2\125d1adaee7bd5bb46a003ade09f73f22653718a
