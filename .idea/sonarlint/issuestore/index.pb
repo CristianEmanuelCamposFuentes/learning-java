@@ -96,3 +96,9 @@ G.idea/sonarlint/issuestore/a/4/a4379512543b86217d059701a1c15858c78a9679,9\d\9d
 Q.idea/sonarlint/securityhotspotstore/b/4/b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3,6\b\6bc361fab678f74f7da63b229ace2fc9d3130980
 R
 "HolaMundo/src/PrimitivosFloat.java,1\2\125d1adaee7bd5bb46a003ade09f73f22653718a
+M
+HolaMundo/src/Caracteres.java,5\5\55740ba674a6ee0882ed4a3be8bd0bd5165c3087
+W
+'HolaMundo/src/PrimitivosCaracteres.java,1\2\12ac91a9d42c154f530a7285afd9213669c8944b
+T
+$HolaMundo/src/PrimitivosEnteros.java,c\b\cb3ca66966f027b59fffba7cfef44102188df699
