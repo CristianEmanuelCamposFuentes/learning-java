@@ -1,8 +1,6 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-G
-HolaMundo/src/Main.java,6\9\697ba90d359b77e350d2535bf9086bea50aee99f
 L
 HolaMundo/src/HolaMundo.java,1\a\1a8b6c3706464c20b8e90db3d01ee3639251e43e
 G
@@ -13,8 +11,6 @@ w
 G.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,b\4\b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
-Å
-Q.idea/sonarlint/securityhotspotstore/6/9/697ba90d359b77e350d2535bf9086bea50aee99f,a\4\a4379512543b86217d059701a1c15858c78a9679
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 Å
@@ -34,8 +30,6 @@ E
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-M
-HolaMundo/src/Primitivos.java,d\7\d73062b02e8d7c5c507dc40905500a79b5592ecd
 Å
 Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,9\0\909762385fc6eb20f922a91c6865741308b57f2c
 w
@@ -96,8 +90,6 @@ G.idea/sonarlint/issuestore/a/4/a4379512543b86217d059701a1c15858c78a9679,9\d\9d
 Q.idea/sonarlint/securityhotspotstore/b/4/b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3,6\b\6bc361fab678f74f7da63b229ace2fc9d3130980
 R
 "HolaMundo/src/PrimitivosFloat.java,1\2\125d1adaee7bd5bb46a003ade09f73f22653718a
-M
-HolaMundo/src/Caracteres.java,5\5\55740ba674a6ee0882ed4a3be8bd0bd5165c3087
 W
 'HolaMundo/src/PrimitivosCaracteres.java,1\2\12ac91a9d42c154f530a7285afd9213669c8944b
 T

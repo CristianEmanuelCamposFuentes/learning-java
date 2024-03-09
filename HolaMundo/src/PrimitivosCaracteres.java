@@ -20,31 +20,31 @@ public class PrimitivosCaracteres {
         System.out.println("Maximo valor de char = " + Character.MAX_VALUE);
 
         char espacio = '\u0020';
-        System.out.println("Char = " + espacio);
+        System.out.println("Char espacio = " + espacio);
 
         char tabulador = '\t';
-        System.out.println("Char = " + tabulador);
+        System.out.println("Char tabulador = " + tabulador);
 
         char nuevaLinea = '\n';
-        System.out.println("Char = " + nuevaLinea);
+        System.out.println("Char nueva linea = " + nuevaLinea);
 
         char retorno = '\r';
-        System.out.println("Char = " + retorno);
+        System.out.println("Char retorno = " + retorno);
 
         char comilla = '\u0022';
-        System.out.println("Char = " + comilla);
+        System.out.println("Char comilla = " + comilla);
 
-        char backSpace = '\u0008';
-        System.out.println("Char = " + backSpace);
+        char backSpace = '\b';
+        System.out.println("Char backspace = " + backSpace);
 
         char formFeed = '\u000C';
-        System.out.println("Char = " + formFeed);
+        System.out.println("Char form feed = " + formFeed);
 
         char nuevaPagina = '\u000B';
-        System.out.println("Char = " + nuevaPagina);
+        System.out.println("Char nueva pagina = " + nuevaPagina);
 
         char nullChar = '\u0000';
-        System.out.println("Char = " + nullChar);
+        System.out.println("Char null = " + nullChar);
 
 
     }
