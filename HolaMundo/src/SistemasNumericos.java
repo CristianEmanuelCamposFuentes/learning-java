@@ -3,8 +3,19 @@ import javax.swing.*;
 public class SistemasNumericos {
 
     public static void main(String[] args) {
-        String numeroString = JOptionPane.showInputDialog("Introduce un numero");
-        int numeroDecimal = Integer.parseInt(numeroString);
+        String numeroString = JOptionPane.showInputDialog("Introduce un numero entero");
+        int numeroDecimal = 0;
+        try {
+            numeroDecimal = Integer.parseInt(numeroString);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "El valor introducido no es un numero entero");
+            // Ejecutar nuevamente el main
+            main(args);
+            // Salir del programa
+            System.exit(0);
+        }
+
+
         System.out.println("Numero decimal: " + numeroDecimal);
 
         // Convertir a binario
