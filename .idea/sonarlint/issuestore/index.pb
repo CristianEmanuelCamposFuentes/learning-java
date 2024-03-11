@@ -94,3 +94,5 @@ T
 $HolaMundo/src/PrimitivosBoolean.java,8\7\870f50c93dc28a19425eb5a8ff156c58b62a710f
 T
 $HolaMundo/src/SistemasNumericos.java,7\3\7339f6e539bcb119fffd7b370ab4d5b5c769a2bf
+b
+2HolaMundo/src/SistemasNumericosEntradaScanner.java,5\4\54337dfaa28ac21267fd0aca81f131480ca6b4a7
