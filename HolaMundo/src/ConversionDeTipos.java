@@ -19,5 +19,29 @@ public class ConversionDeTipos {
 
         String otroNumeroStr = Integer.toString(otroNumeroInt);
         System.out.println("Numero string: " + otroNumeroStr);
+
+        otroNumeroStr = String.valueOf(otroNumeroInt+10);
+        System.out.println("Numero string: " + otroNumeroStr);
+
+        double otroRealDouble = 1.23456e2;
+        String otroRealStr = Double.toString(otroRealDouble);
+        System.out.println("Real string: " + otroRealStr);
+
+        otroRealStr = String.valueOf(otroRealDouble);
+        System.out.println("Real string: " + otroRealStr);
+
+        // Conversion de enteros a short con cast
+        int i = 15000;
+        short s = (short) i;
+        System.out.println("Short: " + s);
+        System.out.println(Short.MAX_VALUE);
+        long l = (long) i;
+        System.out.println("Long: " + l);
+        float f = (float) i;
+        System.out.println("Float: " + f);
+        char c = (char) i;
+        System.out.println("Double: " + c);
+
+
     }
 }
