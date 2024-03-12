@@ -98,3 +98,5 @@ b
 2HolaMundo/src/SistemasNumericosEntradaScanner.java,5\4\54337dfaa28ac21267fd0aca81f131480ca6b4a7
 T
 $HolaMundo/src/ConversionDeTipos.java,1\c\1c0d043a41f4361e6623cf88bc50896a19f6a6bb
+Z
+*HolaMundo/src/Tareas/DetalleDeFactura.java,d\7\d771d45d6ea4e95642d82221800bdcbd99e30845
