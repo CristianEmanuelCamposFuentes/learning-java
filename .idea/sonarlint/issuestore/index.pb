@@ -96,3 +96,5 @@ T
 $HolaMundo/src/SistemasNumericos.java,7\3\7339f6e539bcb119fffd7b370ab4d5b5c769a2bf
 b
 2HolaMundo/src/SistemasNumericosEntradaScanner.java,5\4\54337dfaa28ac21267fd0aca81f131480ca6b4a7
+T
+$HolaMundo/src/ConversionDeTipos.java,1\c\1c0d043a41f4361e6623cf88bc50896a19f6a6bb
