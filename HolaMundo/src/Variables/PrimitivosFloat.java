@@ -1,3 +1,5 @@
+package Variables;
+
 public class PrimitivosFloat {
     // Para que una variable estatica sea accesible desde la clase, la declaramos como static, no va a tener un valor de instancia, pero si va a estar definida en la clase
     static float varFlotante;
