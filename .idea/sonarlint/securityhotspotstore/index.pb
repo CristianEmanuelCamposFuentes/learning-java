@@ -120,3 +120,5 @@ Z
 ,HolaMundo/src/Variables/PrimitivosFloat.java,b\8\b8bc48eb066a863c94669f6168c4a752d5e43908
 a
 1HolaMundo/src/Variables/PrimitivosCaracteres.java,f\8\f81b90c217c8989a02cd37350a65d972e9fcea8a
+a
+1HolaMundo/src/Strings/EjemploStringInmutable.java,5\f\5f3ec2a4d0c0293ab79aa02fb0428e73db986a0f
