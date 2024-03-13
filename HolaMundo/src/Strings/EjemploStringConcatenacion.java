@@ -13,5 +13,8 @@ public class EjemploStringConcatenacion {
         int numeroB = 20;
         String suma = "La suma de " + numeroA + " y " + numeroB + " es: " + (numeroA + numeroB);
         System.out.println(suma);
+
+        String detalle2 = curso.concat(" con el instructor ").concat(profesor);
+        System.out.println(detalle2);
     }
 }
