@@ -1,8 +1,6 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-L
-HolaMundo/src/HolaMundo.java,1\a\1a8b6c3706464c20b8e90db3d01ee3639251e43e
 G
 HolaMundo/HolaMundo.iml,1\7\17c2d539a4205a1bb076960f8e517c8269df2755
 w
@@ -84,20 +82,6 @@ G.idea/sonarlint/issuestore/b/4/b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3,b\0\b0
 Q.idea/sonarlint/securityhotspotstore/d/1/d18b2b1b9452d07180d5f22769a36f2e58baf23f,c\e\cee24fef0413f44c301dfaf189d0e87dd18ee122
 Å
 Q.idea/sonarlint/securityhotspotstore/b/4/b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3,6\b\6bc361fab678f74f7da63b229ace2fc9d3130980
-R
-"HolaMundo/src/PrimitivosFloat.java,1\2\125d1adaee7bd5bb46a003ade09f73f22653718a
-W
-'HolaMundo/src/PrimitivosCaracteres.java,1\2\12ac91a9d42c154f530a7285afd9213669c8944b
-T
-$HolaMundo/src/PrimitivosEnteros.java,c\b\cb3ca66966f027b59fffba7cfef44102188df699
-T
-$HolaMundo/src/PrimitivosBoolean.java,8\7\870f50c93dc28a19425eb5a8ff156c58b62a710f
-T
-$HolaMundo/src/SistemasNumericos.java,7\3\7339f6e539bcb119fffd7b370ab4d5b5c769a2bf
-b
-2HolaMundo/src/SistemasNumericosEntradaScanner.java,5\4\54337dfaa28ac21267fd0aca81f131480ca6b4a7
-T
-$HolaMundo/src/ConversionDeTipos.java,1\c\1c0d043a41f4361e6623cf88bc50896a19f6a6bb
 Z
 *HolaMundo/src/Tareas/DetalleDeFactura.java,d\7\d771d45d6ea4e95642d82221800bdcbd99e30845
 X
@@ -122,3 +106,5 @@ a
 1HolaMundo/src/Variables/PrimitivosCaracteres.java,f\8\f81b90c217c8989a02cd37350a65d972e9fcea8a
 a
 1HolaMundo/src/Strings/EjemploStringInmutable.java,5\f\5f3ec2a4d0c0293ab79aa02fb0428e73db986a0f
+f
+6HolaMundo/src/Strings/EjemploStringTestRendConcat.java,c\0\c007b2c67d1a53c535b8a76234ec0da6fbecc110
