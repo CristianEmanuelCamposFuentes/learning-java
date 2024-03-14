@@ -106,3 +106,7 @@ f
 6HolaMundo/src/Strings/EjemploStringTestRendConcat.java,c\0\c007b2c67d1a53c535b8a76234ec0da6fbecc110
 _
 /HolaMundo/src/Strings/EjemploStringValidar.java,f\d\fd893544d1d2d2fa6488767596f353fd4645e8f0
+_
+/HolaMundo/src/Strings/EjemploStringMetodos.java,f\6\f6740cbb2a74714c9485678c63df5c55a41fbf57
+h
+8HolaMundo/src/Strings/EjemploStringExtensionArchivo.java,e\1\e13745e4a9d827170896ba9e8c18609bf66cd8bd
