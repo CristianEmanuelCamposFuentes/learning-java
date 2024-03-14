@@ -4,15 +4,11 @@
 G
 HolaMundo/HolaMundo.iml,1\7\17c2d539a4205a1bb076960f8e517c8269df2755
 w
-G.idea/sonarlint/issuestore/1/a/1a8b6c3706464c20b8e90db3d01ee3639251e43e,0\7\078b40a4919816d8c3f4aa4277fa584c188b7bd9
-w
 G.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,b\4\b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
-Å
-Q.idea/sonarlint/securityhotspotstore/1/a/1a8b6c3706464c20b8e90db3d01ee3639251e43e,d\3\d3fcffad4dfff4822fedfd826290054101fd0c8c
 Y
 )EjerciciosLogicos1/EjerciciosLogicos1.iml,e\1\e117a8b0f78e9a69fa6fe1b20c3e809a2a0b3704
 c
