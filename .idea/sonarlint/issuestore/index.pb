@@ -108,3 +108,5 @@ a
 1HolaMundo/src/Strings/EjemploStringInmutable.java,5\f\5f3ec2a4d0c0293ab79aa02fb0428e73db986a0f
 f
 6HolaMundo/src/Strings/EjemploStringTestRendConcat.java,c\0\c007b2c67d1a53c535b8a76234ec0da6fbecc110
+_
+/HolaMundo/src/Strings/EjemploStringValidar.java,f\d\fd893544d1d2d2fa6488767596f353fd4645e8f0
