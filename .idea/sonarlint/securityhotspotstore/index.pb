@@ -55,10 +55,6 @@ Q.idea/sonarlint/securityhotspotstore/e/1/e117a8b0f78e9a69fa6fe1b20c3e809a2a0b37
 L
 .idea/dictionaries/crist.xml,1\6\1641bd23bc651aca8bc2fe4bef554659375b30f9
 w
-G.idea/sonarlint/issuestore/0/7/078b40a4919816d8c3f4aa4277fa584c188b7bd9,6\3\6332f8250d05ba55f508d957d39397c3b90a85c6
-Å
-Q.idea/sonarlint/securityhotspotstore/0/7/078b40a4919816d8c3f4aa4277fa584c188b7bd9,3\6\3617edd846bd1e0e988fe51659f3c5958a0e0b31
-w
 G.idea/sonarlint/issuestore/0/5/050f8f802402bd5668376d643d8571553974eb64,8\d\8d105a1dea9509f6846636d4886a17aa4d3184cc
 Å
 Q.idea/sonarlint/securityhotspotstore/0/5/050f8f802402bd5668376d643d8571553974eb64,c\3\c3d479efa96b1202dcd57267a12897dfbf5481a4
@@ -66,10 +62,6 @@ Q.idea/sonarlint/securityhotspotstore/0/5/050f8f802402bd5668376d643d8571553974eb
 Q.idea/sonarlint/securityhotspotstore/4/6/46e94e823febe88c140dcfb94e542a3bf4cefb11,e\a\ea53f6ec8b6888723aa061ebb02292ea821adc24
 w
 G.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,e\d\ed67eb178d523a4b3f117dcbe0eda5196367ceec
-w
-G.idea/sonarlint/issuestore/d/3/d3fcffad4dfff4822fedfd826290054101fd0c8c,8\b\8b52d391c0cb047185fb3fe401558f0f4114608c
-Å
-Q.idea/sonarlint/securityhotspotstore/d/3/d3fcffad4dfff4822fedfd826290054101fd0c8c,5\b\5b356496b625a3dc4d41b373bfb65ddc9d5139fa
 w
 G.idea/sonarlint/issuestore/d/1/d18b2b1b9452d07180d5f22769a36f2e58baf23f,0\e\0e35003fde3833f363442bb5fef2ed4b029077f8
 w
@@ -112,3 +104,5 @@ h
 8HolaMundo/src/Strings/EjemploStringExtensionArchivo.java,e\1\e13745e4a9d827170896ba9e8c18609bf66cd8bd
 f
 6HolaMundo/src/Strings/EjemploStringMetodosArreglo.java,6\9\69930941c86d4a329962f8beb8cff5f25c392fe0
+b
+2HolaMundo/src/Strings/ProgramaManejoDeNombres.java,6\4\64ad4006c65d86df50e180704b44a0837eae646c
