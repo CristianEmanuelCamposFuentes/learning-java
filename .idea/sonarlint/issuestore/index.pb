@@ -110,3 +110,5 @@ _
 /HolaMundo/src/Strings/EjemploStringMetodos.java,f\6\f6740cbb2a74714c9485678c63df5c55a41fbf57
 h
 8HolaMundo/src/Strings/EjemploStringExtensionArchivo.java,e\1\e13745e4a9d827170896ba9e8c18609bf66cd8bd
+f
+6HolaMundo/src/Strings/EjemploStringMetodosArreglo.java,6\9\69930941c86d4a329962f8beb8cff5f25c392fe0
