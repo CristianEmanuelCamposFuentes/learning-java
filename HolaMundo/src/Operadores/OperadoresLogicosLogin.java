@@ -4,11 +4,20 @@ import java.util.Scanner;
 
 public class OperadoresLogicosLogin {
     public static void main(String[] args) {
-        String username = "Cristian";
-        String password = "12345";
 
-        String username2 = "admin";
-        String password2 = "admin123";
+//        String[] usernames = new String[2];
+//        String[] passwords = new String[2];
+//        usernames[0] = "Cristian";
+//        passwords[0] = "12345";
+//
+//        usernames[1] = "admin";
+//        passwords[1] = "admin123";
+//
+//        usernames[2] = "Taba";
+//        passwords[2] = "123";
+
+        String[] usernames = {"Cristian", "admin", "Taba"};
+        String[] passwords = {"12345", "admin123", "123"};
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Username: ");
@@ -18,15 +27,18 @@ public class OperadoresLogicosLogin {
 
         boolean esAutenticado = false;
 
-        if (username.equals(inputUsername) && password.equals(inputPassword) || username2.equals(inputUsername) && password2.equals(inputPassword)) {
-            esAutenticado = true;
-        } else {
-            System.out.println("Credenciales incorrectas");
-            main(args);
+        for (int i = 0; i < usernames.length; i++) {
+            if (usernames[i].equals(inputUsername) && passwords[i].equals(inputPassword)) {
+                esAutenticado = true;
+                break;
+            }
         }
+
 
         if(esAutenticado) {
             System.out.println("Bienvenido usuario ".concat(inputUsername).concat("  !"));
+        } else {
+            System.out.println("Credenciales incorrectas. Requiere autenticación");
         }
     }
 }
