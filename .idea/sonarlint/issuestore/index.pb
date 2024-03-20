@@ -110,3 +110,5 @@ b
 0HolaMundo/src/Operadores/OperadorAritmetico.java,7\9\792616edcf795f639ddd1fc80e702dac19e303d2
 c
 3HolaMundo/src/Operadores/OperadoresAritmeticos.java,9\d\9d12b45e5bfa5eb5122941c72f1564bcabf63dae
+b
+2HolaMundo/src/Operadores/OperadoresAsignacion.java,0\a\0a0ae2a82659d48c8d91d8a32964482520f6bbaa
