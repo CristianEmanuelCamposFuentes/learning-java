@@ -118,3 +118,5 @@ _
 /HolaMundo/src/Operadores/OperadoresLogicos.java,a\1\a166ee32fa95bd2afb69a0aa2a619205625aa0c9
 d
 4HolaMundo/src/Operadores/OperadoresLogicosLogin.java,c\0\c0ad476ecedf07021b3f2572244b27915710e8a2
+^
+.HolaMundo/src/Operadores/OperadorTernario.java,6\9\69ada2c0433dc790ae45a25405061c533783bf02
