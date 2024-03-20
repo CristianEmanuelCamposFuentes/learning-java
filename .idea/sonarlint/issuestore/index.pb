@@ -106,8 +106,6 @@ f
 6HolaMundo/src/Strings/EjemploStringMetodosArreglo.java,6\9\69930941c86d4a329962f8beb8cff5f25c392fe0
 b
 2HolaMundo/src/Strings/ProgramaManejoDeNombres.java,6\4\64ad4006c65d86df50e180704b44a0837eae646c
-`
-0HolaMundo/src/Operadores/OperadorAritmetico.java,7\9\792616edcf795f639ddd1fc80e702dac19e303d2
 c
 3HolaMundo/src/Operadores/OperadoresAritmeticos.java,9\d\9d12b45e5bfa5eb5122941c72f1564bcabf63dae
 b
@@ -116,3 +114,5 @@ _
 /HolaMundo/src/Operadores/OperadoresUnarios.java,0\f\0fd9a3f88a683812ff2e5e3e71841a2f2e72f77e
 e
 5HolaMundo/src/Operadores/OperadoresIncrementales.java,c\c\cc3e1ba05edefa2923dff4f24bdd205af325c851
+_
+/HolaMundo/src/Operadores/OperadoresLogicos.java,a\1\a166ee32fa95bd2afb69a0aa2a619205625aa0c9
