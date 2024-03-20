@@ -116,3 +116,5 @@ e
 5HolaMundo/src/Operadores/OperadoresIncrementales.java,c\c\cc3e1ba05edefa2923dff4f24bdd205af325c851
 _
 /HolaMundo/src/Operadores/OperadoresLogicos.java,a\1\a166ee32fa95bd2afb69a0aa2a619205625aa0c9
+d
+4HolaMundo/src/Operadores/OperadoresLogicosLogin.java,c\0\c0ad476ecedf07021b3f2572244b27915710e8a2
