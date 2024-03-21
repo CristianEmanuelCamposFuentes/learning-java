@@ -127,8 +127,8 @@ i
 n
 >HolaMundo/src/Operadores/OperadorInstanceOfTiposGenericos.java,5\b\5b23c9e62d3ef36304ebac29c12b8c777cfcfe79
 ^
-.HolaMundo/src/Tareas/DonNumerosMayorMenor.java,3\a\3a2f9973791a217c340d9bd098c64d1fee54ddea
-^
 .HolaMundo/src/Tareas/DosNumerosMayorMenor.java,f\a\faa393cdab5bbccd07e00cbaa0260aa19a1fd4e1
 X
 (HolaMundo/src/Tareas/TanqueGasolina.java,4\7\476f451bfb6338a5fbcdc8dc87d0d17ca7f536f6
+_
+/HolaMundo/src/Tareas/MasLargoDeTresNombres.java,3\9\39a06109b3b7f00225db7c3e1d61234b4850ff06
