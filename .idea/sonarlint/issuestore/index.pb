@@ -122,3 +122,5 @@ d
 .HolaMundo/src/Operadores/OperadorTernario.java,6\9\69ada2c0433dc790ae45a25405061c533783bf02
 i
 9HolaMundo/src/Operadores/OperadorTernarioNumeroMayor.java,a\1\a14c03d1022b171b574e9810c741a4ca9eb4705f
+`
+0HolaMundo/src/Operadores/OperadorInstanceOf.java,a\a\aad794abec09197706e8fff376d70bdd6e49b738
