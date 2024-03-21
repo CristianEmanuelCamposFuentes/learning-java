@@ -126,3 +126,7 @@ i
 0HolaMundo/src/Operadores/OperadorInstanceOf.java,a\a\aad794abec09197706e8fff376d70bdd6e49b738
 n
 >HolaMundo/src/Operadores/OperadorInstanceOfTiposGenericos.java,5\b\5b23c9e62d3ef36304ebac29c12b8c777cfcfe79
+^
+.HolaMundo/src/Tareas/DonNumerosMayorMenor.java,3\a\3a2f9973791a217c340d9bd098c64d1fee54ddea
+^
+.HolaMundo/src/Tareas/DosNumerosMayorMenor.java,f\a\faa393cdab5bbccd07e00cbaa0260aa19a1fd4e1
