@@ -124,3 +124,5 @@ i
 9HolaMundo/src/Operadores/OperadorTernarioNumeroMayor.java,a\1\a14c03d1022b171b574e9810c741a4ca9eb4705f
 `
 0HolaMundo/src/Operadores/OperadorInstanceOf.java,a\a\aad794abec09197706e8fff376d70bdd6e49b738
+n
+>HolaMundo/src/Operadores/OperadorInstanceOfTiposGenericos.java,5\b\5b23c9e62d3ef36304ebac29c12b8c777cfcfe79
