@@ -140,3 +140,5 @@ j
 :HolaMundo/src/FlujosControl/SentenciaIfElseNumDiasMes.java,4\2\428fad3b2be1715dc378e4b667150a637d9d908c
 d
 4HolaMundo/src/FlujosControl/SentenciaSwitchCase.java,f\c\fce51ce63bb4985b6a66c15e8a5b9f6eb78f055f
+]
+-HolaMundo/src/FlujosControl/SentenciaFor.java,9\b\9b509e1b9e4cd885e344ca0c76545d77c19a93c0
