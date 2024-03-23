@@ -132,3 +132,7 @@ X
 (HolaMundo/src/Tareas/TanqueGasolina.java,4\7\476f451bfb6338a5fbcdc8dc87d0d17ca7f536f6
 _
 /HolaMundo/src/Tareas/MasLargoDeTresNombres.java,3\9\39a06109b3b7f00225db7c3e1d61234b4850ff06
+˜
+hIntegradorCondicionales/src/main/java/com/mycompany/integradorcondicionales/IntegradorCondicionales.java,c\c\cc6dd5099b080cf072b4b6c3edf6cab0a2710df4
+`
+0HolaMundo/src/FlujosControl/SentenciaIfElse.java,1\d\1dabc43f01bfe0d11dbf3adcdbf8e10cebd39250
