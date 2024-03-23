@@ -138,3 +138,5 @@ hIntegradorCondicionales/src/main/java/com/mycompany/integradorcondicionales/Int
 0HolaMundo/src/FlujosControl/SentenciaIfElse.java,1\d\1dabc43f01bfe0d11dbf3adcdbf8e10cebd39250
 j
 :HolaMundo/src/FlujosControl/SentenciaIfElseNumDiasMes.java,4\2\428fad3b2be1715dc378e4b667150a637d9d908c
+d
+4HolaMundo/src/FlujosControl/SentenciaSwitchCase.java,f\c\fce51ce63bb4985b6a66c15e8a5b9f6eb78f055f
