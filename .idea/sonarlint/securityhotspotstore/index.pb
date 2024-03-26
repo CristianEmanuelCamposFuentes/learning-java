@@ -9,18 +9,8 @@ G.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,b\4\b4
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
-Y
-)EjerciciosLogicos1/EjerciciosLogicos1.iml,e\1\e117a8b0f78e9a69fa6fe1b20c3e809a2a0b3704
-c
-3IntegradorCondicionales/IntegradorCondicionales.iml,4\6\46e94e823febe88c140dcfb94e542a3bf4cefb11
-O
-CondicionalIF/CondicionalIF.iml,1\a\1af5a459727317f3b823e786b0cd68f92e8d262e
-W
-'CondicionalSwitch/CondicionalSwitch.iml,0\5\050f8f802402bd5668376d643d8571553974eb64
 Å
 Q.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,1\0\10a03f31c4dce92cb371e761ce9429428bb6c176
-E
-Variable/Variable.iml,d\1\d18b2b1b9452d07180d5f22769a36f2e58baf23f
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -132,8 +122,6 @@ X
 (HolaMundo/src/Tareas/TanqueGasolina.java,4\7\476f451bfb6338a5fbcdc8dc87d0d17ca7f536f6
 _
 /HolaMundo/src/Tareas/MasLargoDeTresNombres.java,3\9\39a06109b3b7f00225db7c3e1d61234b4850ff06
-ò
-hIntegradorCondicionales/src/main/java/com/mycompany/integradorcondicionales/IntegradorCondicionales.java,c\c\cc6dd5099b080cf072b4b6c3edf6cab0a2710df4
 `
 0HolaMundo/src/FlujosControl/SentenciaIfElse.java,1\d\1dabc43f01bfe0d11dbf3adcdbf8e10cebd39250
 j
@@ -142,3 +130,5 @@ d
 4HolaMundo/src/FlujosControl/SentenciaSwitchCase.java,f\c\fce51ce63bb4985b6a66c15e8a5b9f6eb78f055f
 ]
 -HolaMundo/src/FlujosControl/SentenciaFor.java,9\b\9b509e1b9e4cd885e344ca0c76545d77c19a93c0
+d
+4HolaMundo/src/FlujosControl/SentenciaForArreglo.java,2\8\28ea865aa262c987fe8bb2a022a8480e3a2f47fc

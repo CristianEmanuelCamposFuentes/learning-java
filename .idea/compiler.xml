@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="EjerciciosLogicos1" />
-        <module name="IntegradorCondicionales" />
-        <module name="Variable" />
-        <module name="CondicionalSwitch" />
-        <module name="CondicionalIF" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CondicionalIF" target="19" />
+      <module name="CondicionalSwitch" target="19" />
+      <module name="EjerciciosLogicos1" target="19" />
+      <module name="IntegradorCondicionales" target="19" />
+      <module name="Variable" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>
