@@ -134,3 +134,5 @@ d
 4HolaMundo/src/FlujosControl/SentenciaForArreglo.java,2\8\28ea865aa262c987fe8bb2a022a8480e3a2f47fc
 a
 1HolaMundo/src/FlujosControl/SentenciaForEach.java,0\9\094dfceaeea682ec77336c7f17e69c70e3491b2b
+i
+9HolaMundo/src/FlujosControl/SentenciasBucleEtiquetas.java,d\c\dc6e4ad0b6202625d258a5ac17021919f8161602
