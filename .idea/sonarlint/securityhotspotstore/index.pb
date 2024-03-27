@@ -132,3 +132,5 @@ d
 -HolaMundo/src/FlujosControl/SentenciaFor.java,9\b\9b509e1b9e4cd885e344ca0c76545d77c19a93c0
 d
 4HolaMundo/src/FlujosControl/SentenciaForArreglo.java,2\8\28ea865aa262c987fe8bb2a022a8480e3a2f47fc
+a
+1HolaMundo/src/FlujosControl/SentenciaForEach.java,0\9\094dfceaeea682ec77336c7f17e69c70e3491b2b
