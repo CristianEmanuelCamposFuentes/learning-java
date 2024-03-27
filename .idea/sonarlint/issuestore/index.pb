@@ -120,3 +120,5 @@ _
 /HolaMundo/src/ClasesWrapper/WrapperInteger.java,a\7\a71cfad42fbf25b5736460ad1aa98792986e203d
 b
 2HolaMundo/src/ClasesWrapper/AutoboxingInteger.java,4\a\4a68e5cc5486dbf9a775553c9de74756e49708db
+n
+>HolaMundo/src/ClasesWrapper/WrapperOperadoresRelacionales.java,c\a\ca273df530a70621d9acd9fb1ba5301931120374
