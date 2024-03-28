@@ -122,3 +122,5 @@ b
 2HolaMundo/src/ClasesWrapper/AutoboxingInteger.java,4\a\4a68e5cc5486dbf9a775553c9de74756e49708db
 n
 >HolaMundo/src/ClasesWrapper/WrapperOperadoresRelacionales.java,c\a\ca273df530a70621d9acd9fb1ba5301931120374
+_
+/HolaMundo/src/ClasesWrapper/WrapperBoolean.java,9\8\98d98397eebb9771bf99dbc755d69f39cf6b7e6d
