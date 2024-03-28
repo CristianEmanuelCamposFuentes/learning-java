@@ -124,3 +124,5 @@ n
 >HolaMundo/src/ClasesWrapper/WrapperOperadoresRelacionales.java,c\a\ca273df530a70621d9acd9fb1ba5301931120374
 _
 /HolaMundo/src/ClasesWrapper/WrapperBoolean.java,9\8\98d98397eebb9771bf99dbc755d69f39cf6b7e6d
+_
+/HolaMundo/src/ClasesWrapper/MetodoGetClass.java,1\e\1eca8343ddd6b74cdc53040f499ee28a65f642d8
