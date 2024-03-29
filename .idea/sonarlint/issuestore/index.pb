@@ -126,3 +126,7 @@ _
 /HolaMundo/src/ClasesWrapper/WrapperBoolean.java,9\8\98d98397eebb9771bf99dbc755d69f39cf6b7e6d
 _
 /HolaMundo/src/ClasesWrapper/MetodoGetClass.java,1\e\1eca8343ddd6b74cdc53040f499ee28a65f642d8
+b
+2HolaMundo/src/ValorVsReferencia/PasarPorValor.java,8\d\8d464f314b89ef3c9a6decc5e2d780e3cde42eea
+g
+7HolaMundo/src/ValorVsReferencia/PasarPorReferencia.java,2\5\2517ecd5036f566bad640a2cdc54c35b020b3109
