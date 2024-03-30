@@ -142,3 +142,9 @@ V
 &HolaMundo/src/Tareas/CalcularEdad.java,1\b\1b85457a1238e109b80d5031a22183f751a91ddb
 j
 :HolaMundo/src/Clases/System/EjemploPropiedadesSistema.java,6\a\6a1dd6ad56cfae27e25af94fd12c1dacdf21cc80
+q
+AHolaMundo/src/Clases/System/EjemploAsignarPropiedadesSistema.java,6\6\664415bb4d3d547291b993232cd06a14f7ed30e8
+]
+-HolaMundo/src/Clases/System/config.properties,9\4\94bbda9582c46e785c6ef72119051e8fe6b4b06f
+O
+HolaMundo/src/config.properties,4\f\4f58a4385ff90565b37f49d87c1883d4694ec42d
