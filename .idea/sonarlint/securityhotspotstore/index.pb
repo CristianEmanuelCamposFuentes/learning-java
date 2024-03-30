@@ -140,3 +140,5 @@ g
 7HolaMundo/src/Clases/Date/EjemploJavaUtilDateParse.java,a\3\a3dd7cd64fbb01749268737b250e96b6961c1a4a
 V
 &HolaMundo/src/Tareas/CalcularEdad.java,1\b\1b85457a1238e109b80d5031a22183f751a91ddb
+j
+:HolaMundo/src/Clases/System/EjemploPropiedadesSistema.java,6\a\6a1dd6ad56cfae27e25af94fd12c1dacdf21cc80
