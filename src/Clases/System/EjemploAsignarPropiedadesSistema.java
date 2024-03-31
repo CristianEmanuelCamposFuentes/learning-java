@@ -8,6 +8,8 @@ import java.util.Properties;
 public class EjemploAsignarPropiedadesSistema {
     public static void main(String[] args) {
 
+        // La idea de la clase System es que sea estatica asi no pueda ser instanciada, ni se pueda extender de ella una herencia
+
         try {
             FileInputStream archivo = new FileInputStream("src/Clases/System/config.properties");
             // Se debe agregar a un objeto properties
@@ -32,10 +34,9 @@ public class EjemploAsignarPropiedadesSistema {
 
             ps.list(System.out);
 
-        } catch (FileNotFoundException e) {
-            System.out.println("No existe el archivo " + e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        } catch (Exception e) {
+            System.err.println("No existe el archivo " + e.getMessage());
+            System.exit(1);
         }
     }
 }

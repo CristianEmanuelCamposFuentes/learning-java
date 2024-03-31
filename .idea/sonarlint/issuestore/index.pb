@@ -36,9 +36,5 @@ G.idea/sonarlint/issuestore/b/4/b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3,b\0\b0
 Q.idea/sonarlint/securityhotspotstore/b/4/b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3,6\b\6bc361fab678f74f7da63b229ace2fc9d3130980
 g
 7src/Clases/System/EjemploAsignarPropiedadesSistema.java,4\2\42e2532344bfd5ce33a1839ba6f6ec638f8744ed
-B
-Base/src/Main.java,1\5\158c0ff55a23c3227451a070052b9a84165d6d5b
-=
-Base/Base.iml,c\9\c998216769b1b56e1c779a35f007efe65e0a91bd
 ^
 .src/Clases/System/EjemploVariablesEntorno.java,4\0\40e180107c45609c911964fcd534902909417041
