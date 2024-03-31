@@ -40,3 +40,5 @@ B
 Base/src/Main.java,1\5\158c0ff55a23c3227451a070052b9a84165d6d5b
 =
 Base/Base.iml,c\9\c998216769b1b56e1c779a35f007efe65e0a91bd
+^
+.src/Clases/System/EjemploVariablesEntorno.java,4\0\40e180107c45609c911964fcd534902909417041
