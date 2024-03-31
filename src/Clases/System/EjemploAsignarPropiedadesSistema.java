@@ -9,7 +9,7 @@ public class EjemploAsignarPropiedadesSistema {
     public static void main(String[] args) {
 
         try {
-            FileInputStream archivo = new FileInputStream("C:\\Users\\crist\\IdeaProjects\\spring-projects\\java-spring-boot-from-zero\\HolaMundo\\src\\config.properties");
+            FileInputStream archivo = new FileInputStream("src/Clases/System/config.properties");
             // Se debe agregar a un objeto properties
             // Le agregamos las config del sistema
             Properties p = new Properties(System.getProperties());
