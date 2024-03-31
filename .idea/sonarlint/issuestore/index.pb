@@ -38,3 +38,5 @@ g
 7src/Clases/System/EjemploAsignarPropiedadesSistema.java,4\2\42e2532344bfd5ce33a1839ba6f6ec638f8744ed
 ^
 .src/Clases/System/EjemploVariablesEntorno.java,4\0\40e180107c45609c911964fcd534902909417041
+]
+-src/Clases/Date/EjemploJavaUtilDateParse.java,2\3\23e1639d3ff6a4771bf2fe135aa9f0e2747fb593
