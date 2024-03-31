@@ -40,3 +40,5 @@ g
 .src/Clases/System/EjemploVariablesEntorno.java,4\0\40e180107c45609c911964fcd534902909417041
 ]
 -src/Clases/Date/EjemploJavaUtilDateParse.java,2\3\23e1639d3ff6a4771bf2fe135aa9f0e2747fb593
+\
+,src/Strings/EjemploStringTestRendConcat.java,d\4\d43985da051029db8b59d2ad37fcce72be186ad0
