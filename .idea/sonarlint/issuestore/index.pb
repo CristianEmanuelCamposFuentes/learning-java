@@ -42,3 +42,5 @@ g
 -src/Clases/Date/EjemploJavaUtilDateParse.java,2\3\23e1639d3ff6a4771bf2fe135aa9f0e2747fb593
 \
 ,src/Strings/EjemploStringTestRendConcat.java,d\4\d43985da051029db8b59d2ad37fcce72be186ad0
+`
+0src/Clases/System/EjemploEjecutarProgramaSO.java,2\4\24de2e96052e15be9c9bae686958bc0447cf19d9
