@@ -44,3 +44,5 @@ g
 ,src/Strings/EjemploStringTestRendConcat.java,d\4\d43985da051029db8b59d2ad37fcce72be186ad0
 `
 0src/Clases/System/EjemploEjecutarProgramaSO.java,2\4\24de2e96052e15be9c9bae686958bc0447cf19d9
+U
+%src/Clases/Math/EjemploClaseMath.java,c\8\c87ef25d8d5cc00afdfb5a9909c5b178bdb6459c
