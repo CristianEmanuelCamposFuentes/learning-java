@@ -46,3 +46,7 @@ g
 0src/Clases/System/EjemploEjecutarProgramaSO.java,2\4\24de2e96052e15be9c9bae686958bc0447cf19d9
 U
 %src/Clases/Math/EjemploClaseMath.java,c\8\c87ef25d8d5cc00afdfb5a9909c5b178bdb6459c
+[
++src/Clases/Math/EjemploClaseMathRandom.java,b\3\b3f857aed37e2e76025678554d632fb97e159427
+W
+'src/Clases/Math/EjemploClaseRandom.java,6\8\682417cd060bfca73a7921bd6f2ebe5fee094681
