@@ -56,3 +56,5 @@ S
 .src/LineaComandos/ArgumentosLineaComandos.java,2\7\2722911936a66cd5fa3d26ebc2cc3c27745252b7
 Q
 !src/Arreglos/EjemploArreglos.java,e\6\e6602d15265f5d384b692d9a76390b13081bfa44
+T
+$src/Arreglos/EjemploArreglosFor.java,b\6\b6492d38341f0e721b976994da6e708d3d746824
