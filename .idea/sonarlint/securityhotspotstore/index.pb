@@ -58,3 +58,5 @@ Q
 !src/Arreglos/EjemploArreglos.java,e\6\e6602d15265f5d384b692d9a76390b13081bfa44
 T
 $src/Arreglos/EjemploArreglosFor.java,b\6\b6492d38341f0e721b976994da6e708d3d746824
+[
++src/Arreglos/EjemploArreglosForInverso.java,9\6\96c69521f54ecef94a7614155e8e194b4dd9ca22
