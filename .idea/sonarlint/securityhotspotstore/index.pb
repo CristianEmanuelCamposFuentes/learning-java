@@ -60,3 +60,5 @@ T
 $src/Arreglos/EjemploArreglosFor.java,b\6\b6492d38341f0e721b976994da6e708d3d746824
 [
 +src/Arreglos/EjemploArreglosForInverso.java,9\6\96c69521f54ecef94a7614155e8e194b4dd9ca22
+b
+2src/Arreglos/EjemploArreglosForInversoMutable.java,c\9\c918fcdb9f7b73c1d073d01b8e06f1640b90a846
