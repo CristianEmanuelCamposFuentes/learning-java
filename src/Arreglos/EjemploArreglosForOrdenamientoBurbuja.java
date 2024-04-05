@@ -26,13 +26,13 @@ public class EjemploArreglosForOrdenamientoBurbuja {
 
 
 // Van a ser dos For, el primero recorre cada elemento del arreglo, y el segundo los compara cada elemento con cada elemento del array
-        for (int i = 0; i < total; i++) {
-            for (int j = 0; j < total - 1; j++) {
-                if (productos[i].compareTo(productos[j]) < 0) {
+        for (int i = 0; i < total - 1; i++) {
+            for (int j = 0; j < total - 1 - i; j++) {
+                if (productos[j + 1].compareTo(productos[j]) < 0) {
                     // El auxiliar se necesita para intercambiar valores, manteniendo el valor de la variable de iteracion
-                    String aux = productos[i];
-                    productos[i] = productos[j ];
-                    productos[j] = aux;
+                    String aux = productos[j];
+                    productos[j] = productos[j+1 ];
+                    productos[j+1] = aux;
                 }
                 contador++;
             }
