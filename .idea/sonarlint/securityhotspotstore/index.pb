@@ -70,3 +70,5 @@ d
 +src/Arreglos/EjemploArreglosCombinados.java,e\e\ee3e7e3ae0d76124e8d11a8ba93e7cdd3ee1eebc
 \
 ,src/Arreglos/EjemploArreglosNumeroMayor.java,4\2\4237430e2dce7fd34cfda4ec0a91aa8ebe4fdfb6
+^
+.src/Arreglos/EjemploArreglosDetectarOrden.java,1\5\1576d8530c83d1497ade0670ac3ed8bd2d97bd96
