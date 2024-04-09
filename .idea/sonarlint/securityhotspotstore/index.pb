@@ -74,3 +74,5 @@ d
 .src/Arreglos/EjemploArreglosDetectarOrden.java,1\5\1576d8530c83d1497ade0670ac3ed8bd2d97bd96
 ]
 -src/Arreglos/EjemploArreglosParesImpares.java,b\3\b32e54e2e71c7759dc98bc8cfddfdb6c7b7b876e
+\
+,src/Arreglos/EjemploArregloNotasAlumnos.java,9\c\9c86170e031cb10a26a12ffca72236b27a204231
