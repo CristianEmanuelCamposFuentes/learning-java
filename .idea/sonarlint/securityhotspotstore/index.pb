@@ -76,3 +76,5 @@ d
 -src/Arreglos/EjemploArreglosParesImpares.java,b\3\b32e54e2e71c7759dc98bc8cfddfdb6c7b7b876e
 \
 ,src/Arreglos/EjemploArregloNotasAlumnos.java,9\c\9c86170e031cb10a26a12ffca72236b27a204231
+]
+-src/Arreglos/EjemploArreglosBuscarNumero.java,b\6\b6a7bd0e5697a164262e21170361424e091be0d9
