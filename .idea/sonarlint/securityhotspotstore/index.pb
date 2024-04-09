@@ -78,3 +78,5 @@ d
 ,src/Arreglos/EjemploArregloNotasAlumnos.java,9\c\9c86170e031cb10a26a12ffca72236b27a204231
 ]
 -src/Arreglos/EjemploArreglosBuscarNumero.java,b\6\b6a7bd0e5697a164262e21170361424e091be0d9
+^
+.src/Arreglos/EjemploArreglosBuscarPalabra.java,0\0\0015742428b5fbae8cb5532480672d23afb03291
