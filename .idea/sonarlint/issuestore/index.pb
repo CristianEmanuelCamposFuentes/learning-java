@@ -86,3 +86,5 @@ c
 3src/Arreglos/EjemploArreglosDesplazarPosicion2.java,f\f\ff8fa2f30c452d6f4faa821c4be0fc394ba77827
 c
 3src/Arreglos/EjemploArreglosDesplazarPosicion3.java,e\9\e9ddc2a0384c51d99c68d1211211c3cf8e8619d4
+a
+1src/Arreglos/EjemploArreglosEliminarElemento.java,4\e\4e98006ca0245f119a507ca186dca4adf4c8535b
