@@ -80,3 +80,5 @@ d
 -src/Arreglos/EjemploArreglosBuscarNumero.java,b\6\b6a7bd0e5697a164262e21170361424e091be0d9
 ^
 .src/Arreglos/EjemploArreglosBuscarPalabra.java,0\0\0015742428b5fbae8cb5532480672d23afb03291
+b
+2src/Arreglos/EjemploArreglosDesplazarPosicion.java,5\1\51486d0addd111b3e620283344e31738eac929a3
