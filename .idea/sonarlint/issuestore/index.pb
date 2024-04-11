@@ -90,3 +90,5 @@ a
 1src/Arreglos/EjemploArreglosEliminarElemento.java,4\e\4e98006ca0245f119a507ca186dca4adf4c8535b
 c
 3src/Arreglos/EjemploArreglosDesplazarPosicion4.java,3\c\3c6f3a39145b1f6ebb2f2d9608c6ddffe86ffb9f
+[
++src/Tareas/OrdenarArregloUltimoPrimero.java,9\0\9048328a64b4ab3a9f98a26e010347a4a61522df
