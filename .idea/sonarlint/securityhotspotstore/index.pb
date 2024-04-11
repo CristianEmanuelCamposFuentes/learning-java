@@ -94,3 +94,5 @@ c
 +src/Tareas/OrdenarArregloUltimoPrimero.java,9\0\9048328a64b4ab3a9f98a26e010347a4a61522df
 S
 #src/Tareas/ImprimirNumeroMayor.java,5\b\5b6892de0dc2c4b65caefd8e4f3adac0cba18890
+Y
+)src/Tareas/SistemaEstadisticoArreglo.java,b\6\b65f4242b1fc4df372b230da08f380b77094a56a
