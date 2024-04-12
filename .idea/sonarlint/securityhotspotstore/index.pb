@@ -98,3 +98,5 @@ Y
 )src/Tareas/SistemaEstadisticoArreglo.java,b\6\b65f4242b1fc4df372b230da08f380b77094a56a
 Y
 )src/Tareas/ImprimirNumeroConcurrente.java,3\a\3a6cb407e6f864e5974e864bff130be4e4577187
+J
+src/Tareas/Histograma.java,5\a\5a27bf1d93e90a893b890964abd3509be42fcf97
