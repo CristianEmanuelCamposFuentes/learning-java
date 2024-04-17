@@ -8,6 +8,17 @@ public class Automovil {
     private double cilindrada;
     private int capacidadTanque;
 
+    public Automovil() {
+    }
+
+    public Automovil(String fabricante, String modelo, String color, double cilindrada, int capacidadTanque) {
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+        this.color = color;
+        this.cilindrada = cilindrada;
+        this.capacidadTanque = capacidadTanque;
+    }
+
     public String getFabricante() {
         return fabricante;
     }
@@ -69,4 +80,22 @@ public class Automovil {
         return km/ (capacidadTanque * (porcentajeBencina/100f));
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        // Si es el mismo objeto retorna true
+if (this == obj) {
+            return true;
+        }
+
+        // Se valida que sean del mismo tipo de Objeto
+        if(obj == null || !(obj instanceof Automovil)) {
+            return false;
+        }
+
+        // Se compara con el mismo tipo de objeto
+        Automovil auto = (Automovil) obj;
+        return (this.fabricante != null && this.modelo != null
+                && this.fabricante.equals(auto.getFabricante())
+                && this.modelo.equals(auto.getModelo()));
+    }
 }
