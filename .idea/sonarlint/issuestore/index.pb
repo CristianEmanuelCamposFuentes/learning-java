@@ -104,3 +104,5 @@ W
 'src/POO/Automovil/EjemploAutomovil.java,4\c\4c48500b6ce0659fad1f22a29b37e3006718cb4a
 P
  src/POO/Automovil/Automovil.java,e\d\ed42ff0eb75380f14400c6cd79bbd10d676b3bd1
+]
+-src/POO/Automovil/EjemploAutomovilStatic.java,e\e\ee17323f9f15e7484cc28789364699f39a7cd12b

@@ -2,20 +2,42 @@ package POO.Automovil;
 
 public class Automovil {
 
+    // Agregar id que sean incrementales
+    private int id = 0;
     private String fabricante;
     private String modelo;
     private String color = "Blanco";
     private double cilindrada;
     private int capacidadTanque;
 
+    private static String colorPatente = "Naranja";
+
+    private static int capacidadTanqueEstatico = 50;
+    private static int ultimoId = 0;
+
     public Automovil() {
+        this.id = ++ultimoId;
+    }
+
+    public Automovil(String fabricante, String modelo) {
+        // Llamada al constructor vacio, para que incremente el id
+        this();
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+    }
+    // Sobrecarga de constructores
+    public Automovil(String fabricante, String modelo, String color) {
+        this(fabricante, modelo);
+        this.color = color;
+    }
+
+    public Automovil(String fabricante, String modelo, String color, double cilindrada) {
+        this(fabricante, modelo, color);
+        this.cilindrada = cilindrada;
     }
 
     public Automovil(String fabricante, String modelo, String color, double cilindrada, int capacidadTanque) {
-        this.fabricante = fabricante;
-        this.modelo = modelo;
-        this.color = color;
-        this.cilindrada = cilindrada;
+        this(fabricante, modelo, color, cilindrada);
         this.capacidadTanque = capacidadTanque;
     }
 
@@ -59,8 +81,29 @@ public class Automovil {
         this.capacidadTanque = capacidadTanque;
     }
 
+    public static String getColorPatente() {
+        return colorPatente;
+    }
+
+    public static void setColorPatente(String colorPatente) {
+        // No se puede usar this en un contexto static
+        Automovil.colorPatente = colorPatente;
+    }
+
+    public static int getCapacidadTanqueEstatico() {
+        return capacidadTanqueEstatico;
+    }
+
+    public static void setCapacidadTanqueEstatico(int capacidadTanqueEstatico) {
+        Automovil.capacidadTanqueEstatico = capacidadTanqueEstatico;
+    }
+
     public String verDetalles() {
-        return fabricante + " " + modelo + " " + color + " " + cilindrada + " " + capacidadTanque;
+        return "auto.fabricante: " + this.getFabricante() +
+                " \n auto.modelo: " + this.getModelo() +
+                "  \n auto.color: " + this.color +
+                " \n auto.patenteColor: " + Automovil.colorPatente +
+                " \n auto.cilindrada: " + this.cilindrada ;
     }
 
     public String arrancar() {
@@ -88,6 +131,12 @@ public class Automovil {
     // Sobrecarga de metodos
     public float calcularConsumo(int km, int porcentajeBencina) {
         return km / (capacidadTanque * (porcentajeBencina / 100f));
+    }
+
+    // Metodo calcularConsumo estatico
+    public static float calcularConsumoEstatico(int km, int porcentajeBencina) {
+        // En un metodo estatico no se puede usar atributos o miembros de la instancia, a menos que sean estaticos
+        return km / (Automovil.capacidadTanqueEstatico * (porcentajeBencina / 100f));
     }
 
     @Override
