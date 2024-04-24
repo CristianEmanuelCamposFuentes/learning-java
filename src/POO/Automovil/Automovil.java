@@ -41,6 +41,14 @@ public class Automovil {
         this.capacidadTanque = capacidadTanque;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getFabricante() {
         return fabricante;
     }
@@ -99,7 +107,8 @@ public class Automovil {
     }
 
     public String verDetalles() {
-        return "auto.fabricante: " + this.getFabricante() +
+        return "auto.id: " + this.getId() +
+                "\n auto.fabricante: " + this.getFabricante() +
                 " \n auto.modelo: " + this.getModelo() +
                 "  \n auto.color: " + this.color +
                 " \n auto.patenteColor: " + Automovil.colorPatente +
@@ -153,8 +162,18 @@ public class Automovil {
 
         // Se compara con el mismo tipo de objeto
         Automovil auto = (Automovil) obj;
-        return (this.fabricante != null && this.modelo != null
+        return ( this.id == auto.getId() &&
+                this.fabricante != null && this.modelo != null
                 && this.fabricante.equals(auto.getFabricante())
                 && this.modelo.equals(auto.getModelo()));
+    }
+
+    @Override
+    public String toString() {
+        return "Automovil{" +
+                "id=" + id +
+                ", fabricante='" + fabricante + '\'' +
+                ", modelo='" + modelo + '\'' +
+                '}';
     }
 }
