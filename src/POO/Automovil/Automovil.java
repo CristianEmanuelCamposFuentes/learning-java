@@ -171,7 +171,7 @@ public class Automovil {
     @Override
     public String toString() {
         return "Automovil{" +
-                "id=" + id +
+                "id=" + this.id +
                 ", fabricante='" + fabricante + '\'' +
                 ", modelo='" + modelo + '\'' +
                 '}';
