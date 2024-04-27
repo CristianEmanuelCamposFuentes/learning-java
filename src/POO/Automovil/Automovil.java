@@ -9,6 +9,10 @@ public class Automovil {
     private Color color = Color.VERDE;
     private double cilindrada;
     private int capacidadTanque;
+
+    private TipoAutomovil tipo;
+
+
     // Generalmente una variable final es publica
     public static final Integer VELOCIDAD_MAXIMA_CARRETERA = 120;
     public static final int VELOCIDAD_MAXIMA_CIUDAD = 60;
@@ -17,6 +21,14 @@ public class Automovil {
 
     private static int capacidadTanqueEstatico = 50;
     private static int ultimoId = 0;
+
+    public TipoAutomovil getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(TipoAutomovil tipo) {
+        this.tipo = tipo;
+    }
 
     public Automovil() {
         this.id = ++ultimoId;

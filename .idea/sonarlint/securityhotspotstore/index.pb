@@ -108,3 +108,5 @@ P
 -src/POO/Automovil/EjemploAutomovilStatic.java,e\e\ee17323f9f15e7484cc28789364699f39a7cd12b
 L
 src/POO/Automovil/Color.java,4\2\4259fab7fb1c700b322816f72fb1ffb0ba6a6379
+T
+$src/POO/Automovil/TipoAutomovil.java,8\9\89253be2ac69f7404a53bd19caad23da42ed9416
