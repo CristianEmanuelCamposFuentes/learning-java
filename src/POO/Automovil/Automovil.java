@@ -6,11 +6,14 @@ public class Automovil {
     private int id = 0;
     private String fabricante;
     private String modelo;
-    private String color = "Blanco";
+    private Color color = Color.VERDE;
     private double cilindrada;
     private int capacidadTanque;
+    // Generalmente una variable final es publica
+    public static final Integer VELOCIDAD_MAXIMA_CARRETERA = 120;
+    public static final int VELOCIDAD_MAXIMA_CIUDAD = 60;
 
-    private static String colorPatente = "Naranja";
+    private static Color colorPatente = Color.NARANJA;
 
     private static int capacidadTanqueEstatico = 50;
     private static int ultimoId = 0;
@@ -26,17 +29,17 @@ public class Automovil {
         this.modelo = modelo;
     }
     // Sobrecarga de constructores
-    public Automovil(String fabricante, String modelo, String color) {
+    public Automovil(String fabricante, String modelo, Color color) {
         this(fabricante, modelo);
         this.color = color;
     }
 
-    public Automovil(String fabricante, String modelo, String color, double cilindrada) {
+    public Automovil(String fabricante, String modelo, Color color, double cilindrada) {
         this(fabricante, modelo, color);
         this.cilindrada = cilindrada;
     }
 
-    public Automovil(String fabricante, String modelo, String color, double cilindrada, int capacidadTanque) {
+    public Automovil(String fabricante, String modelo, Color color, double cilindrada, int capacidadTanque) {
         this(fabricante, modelo, color, cilindrada);
         this.capacidadTanque = capacidadTanque;
     }
@@ -65,11 +68,11 @@ public class Automovil {
         this.modelo = modelo;
     }
 
-    public String getColor() {
+    public Color getColor() {
         return color;
     }
 
-    public void setColor(String color) {
+    public void setColor(Color color) {
         this.color = color;
     }
 
@@ -89,11 +92,11 @@ public class Automovil {
         this.capacidadTanque = capacidadTanque;
     }
 
-    public static String getColorPatente() {
+    public static Color getColorPatente() {
         return colorPatente;
     }
 
-    public static void setColorPatente(String colorPatente) {
+    public static void setColorPatente(Color colorPatente) {
         // No se puede usar this en un contexto static
         Automovil.colorPatente = colorPatente;
     }
