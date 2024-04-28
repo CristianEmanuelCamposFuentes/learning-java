@@ -1,5 +1,7 @@
 package POO.Automovil;
 
+import java.util.Objects;
+
 public class Automovil {
 
     // Agregar id que sean incrementales
@@ -11,7 +13,6 @@ public class Automovil {
     private int capacidadTanque;
 
     private TipoAutomovil tipo;
-
 
     // Generalmente una variable final es publica
     public static final Integer VELOCIDAD_MAXIMA_CARRETERA = 120;
@@ -40,6 +41,7 @@ public class Automovil {
         this.fabricante = fabricante;
         this.modelo = modelo;
     }
+
     // Sobrecarga de constructores
     public Automovil(String fabricante, String modelo, Color color) {
         this(fabricante, modelo);
@@ -127,7 +129,7 @@ public class Automovil {
                 " \n auto.modelo: " + this.getModelo() +
                 "  \n auto.color: " + this.color +
                 " \n auto.patenteColor: " + Automovil.colorPatente +
-                " \n auto.cilindrada: " + this.cilindrada ;
+                " \n auto.cilindrada: " + this.cilindrada;
     }
 
     public String arrancar() {
@@ -159,7 +161,8 @@ public class Automovil {
 
     // Metodo calcularConsumo estatico
     public static float calcularConsumoEstatico(int km, int porcentajeBencina) {
-        // En un metodo estatico no se puede usar atributos o miembros de la instancia, a menos que sean estaticos
+        // En un metodo estatico no se puede usar atributos o miembros de la instancia,
+        // a menos que sean estaticos
         return km / (Automovil.capacidadTanqueEstatico * (porcentajeBencina / 100f));
     }
 
@@ -177,10 +180,15 @@ public class Automovil {
 
         // Se compara con el mismo tipo de objeto
         Automovil auto = (Automovil) obj;
-        return ( this.id == auto.getId() &&
+        return (this.id == auto.getId() &&
                 this.fabricante != null && this.modelo != null
                 && this.fabricante.equals(auto.getFabricante())
                 && this.modelo.equals(auto.getModelo()));
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(this.id, this.fabricante, this.modelo);
     }
 
     @Override
