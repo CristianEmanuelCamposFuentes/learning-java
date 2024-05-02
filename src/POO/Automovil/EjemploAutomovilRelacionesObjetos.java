@@ -1,6 +1,6 @@
 package POO.Automovil;
 
-public class EjemploAutomovil {
+public class EjemploAutomovilRelacionesObjetos {
 
     public static void main(String[] args) {
         Automovil miRenault = new Automovil();
@@ -29,6 +29,11 @@ public class EjemploAutomovil {
         miAudi.acelerar(55);
         miAudi.frenar();
 
+        Rueda[] ruedasAudi = new Rueda[5];
+        for (int i = 0; i < ruedasAudi.length; i++) {
+            miAudi.addRueda(new Rueda("Yokohama", 16, 7.5));
+        }
+
         Automovil miVolkswagen = new Automovil();
         Motor volkswagen = new Motor(1.6, TipoMotor.DIESEL);
         miVolkswagen.setFabricante("Volkswagen");
@@ -42,6 +47,11 @@ public class EjemploAutomovil {
         miVolkswagen.acelerar(100);
         miVolkswagen.frenar();
 
+        Rueda[] ruedasVolkswagen = new Rueda[5];
+        for (int i = 0; i < ruedasVolkswagen.length; i++) {
+            miVolkswagen.addRueda(new Rueda("Yokohama", 16, 7.5));
+        }
+
         // Ahora un Nissan Navara creado a partir de la clase Automovil
         Motor nissan = new Motor(1.8, TipoMotor.DIESEL);
         Automovil miNissan = new Automovil("Nissan", "Navara", Color.AMARILLO, nissan);
@@ -52,9 +62,19 @@ public class EjemploAutomovil {
         miNissan.acelerar(55);
         miNissan.frenar();
 
+        Rueda[] ruedasNissan1 = new Rueda[5];
+        for (int i = 0; i < ruedasNissan1.length; i++) {
+            miNissan.addRueda(new Rueda("Yokohama", 16, 7.5));
+        }
+
         Motor nissan2 = new Motor(2.5, TipoMotor.BENCINA);
         Automovil miNissan2 = new Automovil("Nissan", "Navara", Color.AZUL, nissan2);
         miNissan2.setestanque(new Estanque(60));
+
+        Rueda[] ruedasNissan2 = new Rueda[5];
+        for (int i = 0; i < ruedasNissan2.length; i++) {
+            miNissan2.addRueda(new Rueda("Yokohama", 16, 7.5));
+        }
         // Comparar objetos
         System.out.println("miNissan es igual a miNissan2? " + (miNissan == miNissan2));
         System.out.println("miNissan es igual a miNissan2 con equals? " + miNissan.equals(miNissan2));
