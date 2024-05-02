@@ -7,12 +7,12 @@ public class EjemploAutomovilStatic {
 
         Automovil miRenault = new Automovil("Renault", "Kangoo");
         miRenault.setColor(Color.ROJO);
-        miRenault.setmotor(new Motor(2.0, TipoMotor.BENCINA));
+        miRenault.setCilindrada(2.0);
         miRenault.setTipo(TipoAutomovil.FURGON);
 
-        Automovil miAudi = new Automovil("Audi", "A4", Color.BLANCO, new Motor(2.0, TipoMotor.BENCINA));
+        Automovil miAudi = new Automovil("Audi", "A4", Color.BLANCO, 1.8);
         miAudi.setTipo(TipoAutomovil.SEDAN);
-        Automovil miMazda = new Automovil("Mazda", "6", Color.AMARILLO, new Motor(2.0, TipoMotor.BENCINA));
+        Automovil miMazda = new Automovil("Mazda", "6", Color.AMARILLO, 2.0, 50);
         miMazda.setTipo(TipoAutomovil.COUPE);
 
         // Si es por default, se puede modificar la variable de clase static
@@ -20,7 +20,7 @@ public class EjemploAutomovilStatic {
 
         System.out.println(miRenault.verDetalles());
         System.out.println(miAudi.verDetalles());
-        Automovil.setestanqueEstatico(45);
+        Automovil.setCapacidadTanqueEstatico(45);
         System.out.println(miMazda.verDetalles());
 
         // Obtener el valor del atributo de enum

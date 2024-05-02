@@ -1,21 +1,17 @@
 package POO.Automovil;
 
-import java.util.Objects;
-
-public class Automovil implements Comparable<Automovil> {
+public class Automovil {
 
     // Agregar id que sean incrementales
     private int id = 0;
     private String fabricante;
     private String modelo;
     private Color color = Color.VERDE;
-    private Motor motor;
-    private Estanque estanque;
-    private Persona conductor;
-    private Rueda[] ruedas;
-    private int indiceRuedas;
+    private double cilindrada;
+    private int capacidadTanque;
 
     private TipoAutomovil tipo;
+
 
     // Generalmente una variable final es publica
     public static final Integer VELOCIDAD_MAXIMA_CARRETERA = 120;
@@ -23,14 +19,8 @@ public class Automovil implements Comparable<Automovil> {
 
     private static Color colorPatente = Color.NARANJA;
 
-    private static int estanqueEstatico = 50;
+    private static int capacidadTanqueEstatico = 50;
     private static int ultimoId = 0;
-
-    
-    public Automovil() {
-        this.id = ++ultimoId;
-        this.ruedas = new Rueda[5];
-    }
 
     public TipoAutomovil getTipo() {
         return tipo;
@@ -40,6 +30,9 @@ public class Automovil implements Comparable<Automovil> {
         this.tipo = tipo;
     }
 
+    public Automovil() {
+        this.id = ++ultimoId;
+    }
 
     public Automovil(String fabricante, String modelo) {
         // Llamada al constructor vacio, para que incremente el id
@@ -47,28 +40,20 @@ public class Automovil implements Comparable<Automovil> {
         this.fabricante = fabricante;
         this.modelo = modelo;
     }
-
     // Sobrecarga de constructores
     public Automovil(String fabricante, String modelo, Color color) {
         this(fabricante, modelo);
         this.color = color;
     }
 
-    public Automovil(String fabricante, String modelo, Color color, Motor motor) {
+    public Automovil(String fabricante, String modelo, Color color, double cilindrada) {
         this(fabricante, modelo, color);
-        this.motor = motor;
+        this.cilindrada = cilindrada;
     }
 
-    public Automovil(String fabricante, String modelo, Color color, Motor motor, Estanque estanque) {
-        this(fabricante, modelo, color, motor);
-        this.estanque = estanque;
-    }
-
-    public Automovil(String fabricante, String modelo, Color color, Motor motor, Estanque estanque, Persona conductor,
-            Rueda[] ruedas) {
-        this(fabricante, modelo, color, motor, estanque);
-        this.conductor = conductor;
-        this.ruedas = ruedas;
+    public Automovil(String fabricante, String modelo, Color color, double cilindrada, int capacidadTanque) {
+        this(fabricante, modelo, color, cilindrada);
+        this.capacidadTanque = capacidadTanque;
     }
 
     public int getId() {
@@ -103,20 +88,20 @@ public class Automovil implements Comparable<Automovil> {
         this.color = color;
     }
 
-    public Motor getmotor() {
-        return motor;
+    public double getCilindrada() {
+        return cilindrada;
     }
 
-    public void setmotor(Motor motor) {
-        this.motor = motor;
+    public void setCilindrada(double cilindrada) {
+        this.cilindrada = cilindrada;
     }
 
-    public Estanque getestanque() {
-        return estanque;
+    public int getCapacidadTanque() {
+        return capacidadTanque;
     }
 
-    public void setestanque(Estanque estanque) {
-        this.estanque = estanque;
+    public void setCapacidadTanque(int capacidadTanque) {
+        this.capacidadTanque = capacidadTanque;
     }
 
     public static Color getColorPatente() {
@@ -128,35 +113,12 @@ public class Automovil implements Comparable<Automovil> {
         Automovil.colorPatente = colorPatente;
     }
 
-    public static int getestanqueEstatico() {
-        return estanqueEstatico;
+    public static int getCapacidadTanqueEstatico() {
+        return capacidadTanqueEstatico;
     }
 
-    public static void setestanqueEstatico(int estanqueEstatico) {
-        Automovil.estanqueEstatico = estanqueEstatico;
-    }
-
-    public Persona getConductor() {
-        return conductor;
-    }
-
-    public void setConductor(Persona conductor) {
-        this.conductor = conductor;
-    }
-
-    public Rueda[] getRuedas() {
-        return ruedas;
-    }
-
-    public void setRuedas(Rueda[] ruedas) {
-        this.ruedas = ruedas;
-    }
-
-    public Automovil addRueda(Rueda rueda) {
-        if(indiceRuedas < this.ruedas.length){
-            this.ruedas[indiceRuedas++] = rueda; 
-        }
-        return this;
+    public static void setCapacidadTanqueEstatico(int capacidadTanqueEstatico) {
+        Automovil.capacidadTanqueEstatico = capacidadTanqueEstatico;
     }
 
     public String verDetalles() {
@@ -165,7 +127,7 @@ public class Automovil implements Comparable<Automovil> {
                 " \n auto.modelo: " + this.getModelo() +
                 "  \n auto.color: " + this.color +
                 " \n auto.patenteColor: " + Automovil.colorPatente +
-                " \n auto.cilindrada: " + this.motor.getCilindrada();
+                " \n auto.cilindrada: " + this.cilindrada ;
     }
 
     public String arrancar() {
@@ -187,19 +149,18 @@ public class Automovil implements Comparable<Automovil> {
     }
 
     public float calcularConsumo(int km, float porcentajeBencina) {
-        return km / (estanque.getCapacidad() * porcentajeBencina);
+        return km / (capacidadTanque * porcentajeBencina);
     }
 
     // Sobrecarga de metodos
     public float calcularConsumo(int km, int porcentajeBencina) {
-        return km / (estanque.getCapacidad() * (porcentajeBencina / 100f));
+        return km / (capacidadTanque * (porcentajeBencina / 100f));
     }
 
     // Metodo calcularConsumo estatico
     public static float calcularConsumoEstatico(int km, int porcentajeBencina) {
-        // En un metodo estatico no se puede usar atributos o miembros de la instancia,
-        // a menos que sean estaticos
-        return km / (Automovil.estanqueEstatico * (porcentajeBencina / 100f));
+        // En un metodo estatico no se puede usar atributos o miembros de la instancia, a menos que sean estaticos
+        return km / (Automovil.capacidadTanqueEstatico * (porcentajeBencina / 100f));
     }
 
     @Override
@@ -216,15 +177,10 @@ public class Automovil implements Comparable<Automovil> {
 
         // Se compara con el mismo tipo de objeto
         Automovil auto = (Automovil) obj;
-        return (this.id == auto.getId() &&
+        return ( this.id == auto.getId() &&
                 this.fabricante != null && this.modelo != null
                 && this.fabricante.equals(auto.getFabricante())
                 && this.modelo.equals(auto.getModelo()));
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(this.id, this.fabricante, this.modelo);
     }
 
     @Override
@@ -234,11 +190,5 @@ public class Automovil implements Comparable<Automovil> {
                 ", fabricante='" + fabricante + '\'' +
                 ", modelo='" + modelo + '\'' +
                 '}';
-    }
-
-    @Override
-    public int compareTo(Automovil a) {
-        // Castear porque se recibe un tipo generico Object
-        return this.fabricante.compareTo(a.fabricante);
     }
 }

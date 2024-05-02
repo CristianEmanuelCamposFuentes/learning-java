@@ -4,15 +4,15 @@ public class EjemploAutomovilEnum {
 
     public static void main(String[] args) {
 
-        Automovil.setestanqueEstatico(45);
+        Automovil.setCapacidadTanqueEstatico(45);
         Automovil miMazda = new Automovil("Mazda", "RX-7");
-        miMazda.setmotor(new Motor(2.0, TipoMotor.DIESEL));    
+        miMazda.setCilindrada(2.0);
         miMazda.setColor(Color.AMARILLO);
         miMazda.setTipo(TipoAutomovil.COUPE);
         System.out.println(miMazda.verDetalles());
 
         // Obtener el valor del atributo de enum
-        Automovil miAudi = new Automovil("Audi", "A4", Color.BLANCO, new Motor(2.0, TipoMotor.DIESEL));
+        Automovil miAudi = new Automovil("Audi", "A4", Color.BLANCO, 1.8);
         miAudi.setTipo(TipoAutomovil.CONVERTIBLE);
         System.out.println(miAudi.verDetalles());
 
