@@ -13,6 +13,7 @@ public class Automovil {
     private Estanque estanque;
     private Persona conductor;
     private Rueda[] ruedas;
+    private int indiceRuedas;
 
     private TipoAutomovil tipo;
 
@@ -25,6 +26,12 @@ public class Automovil {
     private static int estanqueEstatico = 50;
     private static int ultimoId = 0;
 
+    
+    public Automovil() {
+        this.id = ++ultimoId;
+        this.ruedas = new Rueda[5];
+    }
+
     public TipoAutomovil getTipo() {
         return tipo;
     }
@@ -33,9 +40,6 @@ public class Automovil {
         this.tipo = tipo;
     }
 
-    public Automovil() {
-        this.id = ++ultimoId;
-    }
 
     public Automovil(String fabricante, String modelo) {
         // Llamada al constructor vacio, para que incremente el id
@@ -146,6 +150,13 @@ public class Automovil {
 
     public void setRuedas(Rueda[] ruedas) {
         this.ruedas = ruedas;
+    }
+
+    public Automovil addRueda(Rueda rueda) {
+        if(indiceRuedas < this.ruedas.length){
+            this.ruedas[indiceRuedas++] = rueda; 
+        }
+        return this;
     }
 
     public String verDetalles() {
