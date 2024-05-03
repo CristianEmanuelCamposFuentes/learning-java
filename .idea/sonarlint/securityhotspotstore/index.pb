@@ -112,8 +112,6 @@ T
 $src/POO/Automovil/TipoAutomovil.java,8\9\89253be2ac69f7404a53bd19caad23da42ed9416
 [
 +src/POO/Automovil/EjemploAutomovilEnum.java,b\3\b3d9d4c72e5dea38e9e369aa47ce89ab9735f70c
-S
-#src/Tareas/ProyectoOrdenCompra.java,6\8\68583e7b8d8d3c9ff7b3be028cfc16ea8ecf8223
 g
 7src/Tareas/ProyectoOrdenCompra/ProyectoOrdenCompra.java,d\5\d5ce095d19f21a9c4e20f3d7bc7ff9c095e07300
 [
