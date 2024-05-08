@@ -124,3 +124,11 @@ S
 #src/POO/Sobrecarga/Calculadora.java,9\a\9a31878736d73c1aadbae8a30a81087b713bc656
 Y
 )src/POO/Sobrecarga/EjemploSobrecarga.java,4\9\495ded90349dc5cbb6617b94a68120a60eeebcd2
+L
+src/POO/Herencia/Alumno.java,7\4\7492a82f21f52f38fef3759568d0735737621cf5
+M
+src/POO/Herencia/Persona.java,2\d\2dd3c902143339f01dc9b654bd7f4bfc10926582
+N
+src/POO/Herencia/Profesor.java,c\0\c014e728e11a10a56af09491e36e62463c332863
+U
+%src/POO/Herencia/EjemploHerencia.java,5\4\545b0850c5bb65a6a6cf2e2d35f6e5d1c8298847
