@@ -134,3 +134,7 @@ U
 %src/POO/Herencia/EjemploHerencia.java,5\4\545b0850c5bb65a6a6cf2e2d35f6e5d1c8298847
 i
 9src/POO/ClasesAbstractas/Form/Elementos/ElementoForm.java,c\7\c70aceb67e582c0729485c2da551c2a64ee7f632
+f
+6src/POO/ClasesAbstractas/Form/Elementos/InputForm.java,d\0\d099b478bcb6cec991ef90bad615ca2f88b22154
+i
+9src/POO/ClasesAbstractas/Form/Elementos/TextareaForm.java,5\d\5df84a6dce6924e6a8d7a1f6a4c0c8b703d3aea1
