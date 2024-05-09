@@ -132,3 +132,5 @@ N
 src/POO/Herencia/Profesor.java,c\0\c014e728e11a10a56af09491e36e62463c332863
 U
 %src/POO/Herencia/EjemploHerencia.java,5\4\545b0850c5bb65a6a6cf2e2d35f6e5d1c8298847
+i
+9src/POO/ClasesAbstractas/Form/Elementos/ElementoForm.java,c\7\c70aceb67e582c0729485c2da551c2a64ee7f632
