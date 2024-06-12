@@ -6,6 +6,7 @@ public class InputForm extends ElementoForm {
     public InputForm(String nombre) {
         super(nombre);
     }
+
     public InputForm(String nombre, String tipo) {
         super(nombre);
         this.tipo = tipo;
