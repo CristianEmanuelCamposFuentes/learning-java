@@ -27,6 +27,15 @@ public class EjemploForm {
                 .addOpcion(new Opcion("4", "javascript"))
                 .addOpcion(new Opcion("5", "php"));
 
+        ElementoForm saludar = new ElementoForm("saludo") {
+            @Override
+            public String dibujarHTML() {
+                return "<input disabled name='"+this.nombre+"' value='"+this.valor+"'>";
+            }
+        };
+
+        saludar.setValor("Hola, este saludo esta deshabilitado !");
+
         username.setValor("tabakos");
         password.setValor("1234");
         email.setValor("email@example.com");
@@ -39,7 +48,8 @@ public class EjemploForm {
                 email,
                 edad,
                 experiencia,
-                lenguajes);
+                lenguajes,
+                saludar);
 
 
         elementos.forEach(e -> {
