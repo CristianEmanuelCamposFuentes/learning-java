@@ -25,16 +25,17 @@ public class SelectForm extends ElementoForm {
 
     @Override
     public String dibujarHTML() {
-        StringBuilder sb = new StringBuilder("<select");
-        sb.append(" name=\"")
+        StringBuilder sb = new StringBuilder("<select ");
+        sb.append("name='")
                 .append(this.nombre)
-                .append("\">\n");
+                .append("'>\n");
         for (Opcion opcion : this.opciones) {
-            sb.append("<option value=\"")
+            sb.append("<option value='")
                     .append(opcion.getValor())
-                    .append("\"");
+                    .append("'");
             if (opcion.isSelected()) {
                 sb.append(" selected");
+                this.valor = opcion.getValor();
             }
             sb.append(">")
                     .append(opcion.getNombre())
