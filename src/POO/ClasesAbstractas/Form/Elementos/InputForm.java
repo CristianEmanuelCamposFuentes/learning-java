@@ -19,6 +19,6 @@ public class InputForm extends ElementoForm {
     public String dibujarHTML() {
         return "<input type='" + this.tipo
                 + "' name='" + this.nombre
-                + "' value=' "+ this.valor + ">";
+                + "' value=' "+ this.valor + "'>";
     }
 }
