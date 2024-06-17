@@ -1,9 +1,6 @@
 package POO.ClasesAbstractas.Form;
 
-import POO.ClasesAbstractas.Form.Elementos.ElementoForm;
-import POO.ClasesAbstractas.Form.Elementos.InputForm;
-import POO.ClasesAbstractas.Form.Elementos.SelectForm;
-import POO.ClasesAbstractas.Form.Elementos.TextareaForm;
+import POO.ClasesAbstractas.Form.Elementos.*;
 import POO.ClasesAbstractas.Form.Elementos.select.Opcion;
 
 import java.util.Arrays;
@@ -21,11 +18,13 @@ public class EjemploForm {
         SelectForm lenguajes = new SelectForm("lenguajes");
         Opcion java = new Opcion("1", "java");
         Opcion python = new Opcion("2", "python");
+        Opcion typescript = new Opcion("6", "typescript").setSelected();
         lenguajes.addOpcion(java)
                 .addOpcion(python)
                 .addOpcion(new Opcion("3", "c++"))
                 .addOpcion(new Opcion("4", "javascript"))
-                .addOpcion(new Opcion("5", "php"));
+                .addOpcion(new Opcion("5", "php"))
+                .addOpcion(typescript);
 
         ElementoForm saludar = new ElementoForm("saludo") {
             @Override
@@ -41,7 +40,7 @@ public class EjemploForm {
         email.setValor("email@example.com");
         edad.setValor("32");
         experiencia.setValor("10 anios en el mundo de java, para varias empresas alrededor del mundo");
-        java.setSelected(true);
+        typescript.setSelected(true);
 
         List<ElementoForm> elementos = Arrays.asList(username,
                 password,

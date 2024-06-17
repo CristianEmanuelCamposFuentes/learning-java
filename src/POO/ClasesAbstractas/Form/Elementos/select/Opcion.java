@@ -25,9 +25,13 @@ public class Opcion {
         return selected;
     }
 
+    public Opcion setSelected() {
+        this.selected = selected;
+        return this;
+    }
     public void setSelected(boolean selected) {
         this.selected = selected;
-    }
+     }
 
     public String getValor() {
         return valor;
