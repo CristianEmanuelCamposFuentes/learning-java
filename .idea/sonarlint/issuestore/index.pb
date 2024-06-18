@@ -156,3 +156,5 @@ l
 <src/POO/ClasesAbstractas/Form/validador/NumeroValidador.java,b\d\bd7c2313756d750a775dc04a59f74fd131fb75b7
 k
 ;src/POO/ClasesAbstractas/Form/validador/LargoValidador.java,e\9\e9a9e0433f33ac96111863ffc0f4d599849fb5ff
+k
+;src/POO/ClasesAbstractas/Form/validador/EmailValidador.java,f\7\f7052859cc79dfaea8dae16418e918f5ad318dde

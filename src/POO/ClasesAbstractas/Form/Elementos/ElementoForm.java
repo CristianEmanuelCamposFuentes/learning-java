@@ -5,7 +5,7 @@ abstract public class ElementoForm {
     protected String nombre;
     public ElementoForm(){
 
-    };
+    }
     public ElementoForm(String nombre){
         this();
         this.nombre = nombre;
