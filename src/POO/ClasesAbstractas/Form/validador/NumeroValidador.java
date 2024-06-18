@@ -14,6 +14,11 @@ public class NumeroValidador extends Validador{
 
     @Override
     public boolean esValido(String valor) {
-        return valor.matches("[0-9]+");
+        try {
+            Integer.parseInt(valor);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
     }
 }
