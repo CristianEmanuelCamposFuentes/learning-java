@@ -1,5 +1,6 @@
 package POO.ClasesAbstractas.Form.Elementos;
 
+import POO.ClasesAbstractas.Form.validador.LargoValidador;
 import POO.ClasesAbstractas.Form.validador.Validador;
 
 import java.util.ArrayList;
@@ -37,7 +38,10 @@ abstract public class ElementoForm {
     public boolean esValido(){
         for(Validador v: validadores){
             if (!v.esValido(this.valor)){
-                this.errores.add(v.getMensaje());
+                if(v instanceof LargoValidador){
+                    this.errores.add(((LargoValidador)v).getMensajeFormateado(nombre));
+                }
+                this.errores.add(String.format(v.getMensaje(), nombre));
             }
         }
         // Si no hay errores, el formulario es válido

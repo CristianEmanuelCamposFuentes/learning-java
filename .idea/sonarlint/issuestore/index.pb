@@ -158,3 +158,5 @@ k
 ;src/POO/ClasesAbstractas/Form/validador/LargoValidador.java,e\9\e9a9e0433f33ac96111863ffc0f4d599849fb5ff
 k
 ;src/POO/ClasesAbstractas/Form/validador/EmailValidador.java,f\7\f7052859cc79dfaea8dae16418e918f5ad318dde
+w
+Gsrc/POO/ClasesAbstractas/Form/validador/mensaje/MensajeFormateable.java,9\c\9c8a991d579a6e9b6004094675cace814530f976
