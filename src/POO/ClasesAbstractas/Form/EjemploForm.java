@@ -49,10 +49,10 @@ public class EjemploForm {
 
         saludar.setValor("Hola, este saludo esta deshabilitado !");
 
-        username.setValor("");
-        password.setValor("");
-        email.setValor("emailejemplo.com");
-        edad.setValor("");
+        username.setValor("tabakos");
+        password.setValor("1234");
+        email.setValor("email@ejemplo.com");
+        edad.setValor("32");
         experiencia.setValor("10 anios con Desarrollo Backend Java");
         typescript.setSelected(true);
 

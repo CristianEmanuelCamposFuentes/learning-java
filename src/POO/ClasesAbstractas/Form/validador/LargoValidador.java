@@ -4,7 +4,7 @@ import POO.ClasesAbstractas.Form.validador.mensaje.MensajeFormateable;
 
 public class LargoValidador extends Validador implements MensajeFormateable {
 
-    protected String mensaje = "El campo %s debe tener un minimo de %d caracteres y un maximo de %d caracteres";
+    protected String mensaje = "El campo %s debe tener un minimo de %s caracteres y un maximo de %s caracteres";
     private int minimo;
     private int maximo = Integer.MAX_VALUE;
 
