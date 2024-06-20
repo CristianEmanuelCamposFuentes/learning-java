@@ -1,4 +1,4 @@
-package Tareas;
+package Tareas.Iniciales;
 
 import javax.swing.*;
 
