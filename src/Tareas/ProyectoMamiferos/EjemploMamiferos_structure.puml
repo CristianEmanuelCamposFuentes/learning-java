@@ -1,0 +1,247 @@
+@startuml
+
+/' diagram meta data start
+config=StructureConfiguration;
+{
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": false,
+    "cutInterfaceStructures": false,
+    "cutDataStructures": false,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 6,
+    "backwardDepth": 6,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showClassGenericTypes": true,
+    "showMethods": true,
+    "showMethodParameterNames": true,
+    "showMethodParameterTypes": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 2,
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "Tareas.ProyectoMamiferos.EjemploMamiferos",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_180851938 { 
+   	label=ProyectoMamiferos
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   Canino839795622[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Canino</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   color: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   tamanoColmillos: float [1]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+EjemploMamiferos839795622[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)EjemploMamiferos</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ main(args: String[])</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Felino839795622[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Felino</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   tamanoGarras: float [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   velocidad: int [1]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Guepardo839795622[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Guepardo</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ comer(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ comunicarse(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ correr(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ dormir(): String</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Leon839795622[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Leon</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   numManada: int [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   potenciaRugidoDecibel: float [1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ comer(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ comunicarse(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ correr(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ dormir(): String</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Lobo839795622[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Lobo</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   especieLobo: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   numCamada: int [1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ comer(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ comunicarse(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ correr(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ dormir(): String</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Mamifero839795622[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Mamifero</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   altura: float [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   habitat: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   largo: float [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   nombreCientifico: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   peso: float [1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ comer(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ comunicarse(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ correr(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ dormir(): String</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Perro839795622[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Perro</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   fuerzaMordida: int [1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ comer(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ comunicarse(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ correr(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ dormir(): String</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Tigre839795622[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Tigre</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   especieTigre: String [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ comer(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ comunicarse(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ correr(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ dormir(): String</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+
+'edges    
+Canino839795622 -> Lobo839795622[arrowhead=none, arrowtail=empty, dir=both];
+Canino839795622 -> Perro839795622[arrowhead=none, arrowtail=empty, dir=both];
+Felino839795622 -> Guepardo839795622[arrowhead=none, arrowtail=empty, dir=both];
+Felino839795622 -> Leon839795622[arrowhead=none, arrowtail=empty, dir=both];
+Felino839795622 -> Tigre839795622[arrowhead=none, arrowtail=empty, dir=both];
+Mamifero839795622 -> Canino839795622[arrowhead=none, arrowtail=empty, dir=both];
+Mamifero839795622 -> Felino839795622[arrowhead=none, arrowtail=empty, dir=both];
+    
+}
+@enduml
