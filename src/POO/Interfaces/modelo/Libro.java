@@ -1,24 +1,27 @@
 package POO.Interfaces.modelo;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class Libro {
-    private List<Hoja> paginas;
+public class Libro implements Imprimible {
+    private List<Imprimible> paginas;
     private String autor;
     private String titulo;
     private Genero genero;
 
-    public Libro(String titulo, Genero genero, String autor) {
+    public Libro(String autor,String titulo, Genero genero) {
         this.titulo = titulo;
         this.genero = genero;
         this.autor = autor;
+        this.paginas = new ArrayList<>();
     }
 
-    public Libro addPagina(Hoja hoja) {
+    public Libro addPagina(Imprimible hoja) {
         this.paginas.add(hoja);
         return this;
     }
 
+    @Override
     public String imprimir() {
         StringBuilder sb = new StringBuilder();
         sb.append("LIBRO: ").append(this.titulo).append("\n")
@@ -26,7 +29,7 @@ public class Libro {
                 .append("GENERO: ").append(this.genero).append("\n")
                 .append("PAGINAS: ").append(this.paginas.size()).append("\n");
         // Agregar las paginas
-        for (Hoja hoja : this.paginas) {
+        for (Imprimible hoja : this.paginas) {
             sb.append(hoja.imprimir()).append("\n");
         }
         return sb.toString();

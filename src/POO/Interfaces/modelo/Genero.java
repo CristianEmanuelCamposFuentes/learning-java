@@ -8,4 +8,6 @@ public enum Genero {
     COMEDIA,
     ROMANCE,
     CIENCIA_FICCION,
+    PROGRAMACION,
+    OTROS
 }
