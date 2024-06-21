@@ -206,3 +206,5 @@ U
 %src/POO/Interfaces/modelo/Genero.java,d\6\d6bd5379ddd547eb02881723580386c131a53c57
 Y
 )src/POO/Interfaces/modelo/Imprimible.java,f\e\fea00ec3431903f0b6e0352c61b8b1f6b2e52b3d
+V
+&src/POO/Interfaces/modelo/Persona.java,e\b\eb8ebfda4c3bd6d606f9b97925ea5e3a22f6a291
