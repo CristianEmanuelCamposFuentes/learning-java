@@ -8,7 +8,7 @@ import java.util.List;
 public class EjemploRepositorio {
 
     public static void main(String[] args) {
-        CrudRepositorio repo = new ClienteListRepositorio();
+        OrdenablePaginableCrudRepositorio repo = new ClienteListRepositorio();
         repo.crear(new Cliente("Javier", "Perez"));
         repo.crear(new Cliente("Maria", "Lopez"));
         repo.crear(new Cliente("Luis", "Gonzalez"));
@@ -19,11 +19,11 @@ public class EjemploRepositorio {
         clientes.forEach(System.out::println);
 
         System.out.println("Listar con paginacion");
-        List<Cliente> paginable = ((PaginableRepositorio)repo).listar(1, 3); // Casting.
+        List<Cliente> paginable = (repo).listar(1, 3); // Casting.
         paginable.forEach(System.out::println);
 
         System.out.println("Listar por ordenacion");
-        List<Cliente> clientesOrdenASC = ((OrdenableRepositorio)repo)
+        List<Cliente> clientesOrdenASC = (repo)
                 .listar("nombre", Direccion.ASCENDENTE);
         for(Cliente c: clientesOrdenASC){
             System.out.println(c);
@@ -45,6 +45,8 @@ public class EjemploRepositorio {
         System.out.println("Cliente eliminado :" + repo.porId(3));
         repo.listar().forEach(System.out::println);
 
+        System.out.println("Conteo total de clientes:");
+        System.out.println(repo.count());
 
     }
 }
