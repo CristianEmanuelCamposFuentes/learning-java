@@ -1,6 +1,5 @@
-package POO.Interfaces;
-import POO.Interfaces.modelo.*;
-import static POO.Interfaces.modelo.Genero.*;
+package POO.Interfaces.Imprenta.modelo;
+import static POO.Interfaces.Imprenta.modelo.Genero.*;
 
 public class EjemploImprenta {
     public static void main(String[] args) {

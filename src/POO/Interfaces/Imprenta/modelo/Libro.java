@@ -1,4 +1,4 @@
-package POO.Interfaces.modelo;
+package POO.Interfaces.Imprenta.modelo;
 
 import java.util.ArrayList;
 import java.util.List;

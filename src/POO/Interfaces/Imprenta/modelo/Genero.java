@@ -1,4 +1,4 @@
-package POO.Interfaces.modelo;
+package POO.Interfaces.Imprenta.modelo;
 
 public enum Genero {
 

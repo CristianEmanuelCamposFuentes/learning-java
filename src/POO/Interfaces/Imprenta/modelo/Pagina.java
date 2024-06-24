@@ -1,4 +1,4 @@
-package POO.Interfaces.modelo;
+package POO.Interfaces.Imprenta.modelo;
 
 public class Pagina extends Hoja implements Imprimible {
     public Pagina(String contenido) {

@@ -1,4 +1,4 @@
-package POO.Interfaces.modelo;
+package POO.Interfaces.Imprenta.modelo;
 
 abstract public class Hoja {
     protected String contenido;
