@@ -45,8 +45,8 @@ public class Cliente {
     @Override
     public String toString() {
         return
-                "apellido='" + apellido + '\'' +
-                ", id=" + id +
+                "id='" + id + '\'' +
+                ", apellido='" + apellido + '\'' +
                 ", nombre='" + nombre + '\'';
     }
 

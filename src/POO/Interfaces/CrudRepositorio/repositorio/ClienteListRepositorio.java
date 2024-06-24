@@ -11,7 +11,7 @@ public class ClienteListRepositorio implements CrudRepositorio,
 
     private List<Cliente> dataSource;
 
-    public ClienteListRepositorio(List<Cliente> dataSource) {
+    public ClienteListRepositorio() {
         this.dataSource = new ArrayList<>();
     }
 
@@ -24,7 +24,7 @@ public class ClienteListRepositorio implements CrudRepositorio,
     public Cliente porId(Integer id) {
         Cliente resultado = null;
         for (Cliente cli : dataSource) {
-            if (cli.getId().equals(id)) {
+            if (cli.getId() != null && cli.getId().equals(id)) {
                 resultado = cli;
                 break;
             }
@@ -33,7 +33,7 @@ public class ClienteListRepositorio implements CrudRepositorio,
     }
 
     @Override
-    public void agregar(Cliente cliente) {
+    public void crear(Cliente cliente) {
         dataSource.add(cliente);
     }
 

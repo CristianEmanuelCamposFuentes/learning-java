@@ -7,7 +7,7 @@ import java.util.List;
 public interface CrudRepositorio {
     List<Cliente>listar();
     Cliente porId(Integer id);
-    void agregar(Cliente cliente);
+    void crear(Cliente cliente);
     void eliminar(Integer id);
     void actualizar(Cliente cliente);
 }

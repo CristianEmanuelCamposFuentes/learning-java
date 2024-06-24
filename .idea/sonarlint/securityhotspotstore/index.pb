@@ -240,3 +240,5 @@ b
 .src/POO/Interfaces/Imprenta/modelo/Genero.java,1\9\194fb8cbc1e0059224627331864b1749308fd0a9
 \
 ,src/POO/Interfaces/Imprenta/modelo/Hoja.java,0\d\0d700e94ee8283af70bbfe7388911a8853bb2c68
+j
+:src/POO/Interfaces/CrudRepositorio/EjemploRepositorio.java,0\e\0e6bf87fd07290d0c2bd669721cf8bd2c405a4e0
