@@ -52,24 +52,17 @@ public class ClienteListRepositorio implements CrudRepositorio,
 
     @Override
     public List<Cliente> listar(String campo, Direccion dir) {
-        dataSource.sort(( a,  b) -> {
-                int resultado = 0;
-                if (dir == Direccion.ASCENDENTE) {
-                    switch (campo) {
-                        case "id" -> resultado = a.getId().compareTo(b.getId());
-                        case "nombre" -> resultado = a.getNombre().compareTo(b.getNombre());
-                        case "apellido" -> resultado = a.getApellido().compareTo(b.getApellido());
+        List<Cliente> listaOrdenada = new ArrayList<>(this.dataSource);
+        listaOrdenada.sort((Cliente a, Cliente b) -> {
+                    int resultado = 0;
+                    if (dir == Direccion.ASCENDENTE) {
+                        resultado = ordenar(campo,a, b);
+                    } else if (dir == Direccion.DESCENDENTE) {
+                        resultado = ordenar(campo,b, a);
                     }
-                } else if (dir == Direccion.DESCENDENTE) {
-                    switch (campo) {
-                        case "id" -> resultado = b.getId().compareTo(a.getId());
-                        case "nombre" -> resultado = b.getNombre().compareTo(a.getNombre());
-                        case "apellido" -> resultado = b.getApellido().compareTo(a.getApellido());
-                    }
-                }
-                return resultado;
+                    return resultado;
         });
-        return dataSource;
+        return listaOrdenada;
     }
 
     @Override
@@ -77,5 +70,15 @@ public class ClienteListRepositorio implements CrudRepositorio,
         return dataSource.subList(desde, hasta);
     }
 
+
+    public static int ordenar(String campo, Cliente a, Cliente b) {
+        int resultado = 0;
+        switch (campo) {
+            case "id" -> resultado = a.getId().compareTo(b.getId());
+            case "nombre" -> resultado = a.getNombre().compareTo(b.getNombre());
+            case "apellido" -> resultado = a.getApellido().compareTo(b.getApellido());
+        }
+        return resultado;
+    }
 
 }
