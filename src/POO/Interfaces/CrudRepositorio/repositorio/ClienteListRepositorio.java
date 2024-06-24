@@ -57,4 +57,6 @@ public class ClienteListRepositorio implements CrudRepositorio,
     public List<Cliente> listar(int desde, int hasta) {
         return List.of();
     }
+
+
 }
