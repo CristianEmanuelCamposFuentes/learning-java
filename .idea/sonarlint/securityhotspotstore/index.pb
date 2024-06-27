@@ -244,7 +244,7 @@ j
 :src/POO/Interfaces/CrudRepositorio/EjemploRepositorio.java,0\e\0e6bf87fd07290d0c2bd669721cf8bd2c405a4e0
 …
 Usrc/POO/Interfaces/CrudRepositorio/repositorio/OrdenablePaginableCrudRepositorio.java,a\f\af787e565f6c69c51ce793f1555efa63256205ff
-l
-<src/POO/Interfaces/CrudRepositorio/repositorio/Contable.java,6\b\6b47048af37b099a067d4a53fd1a5ffc31c841d8
 w
 Gsrc/POO/Interfaces/CrudRepositorio/repositorio/ContableRepositorio.java,c\5\c5d91c0186904faadf556749058fa00cdbd722b1
+W
+'src/POO/Genericos/EjemploGenericos.java,3\8\380026ab800208ad7d27cca5b98b5d97677b3940
