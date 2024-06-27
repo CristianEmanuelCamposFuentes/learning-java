@@ -248,3 +248,5 @@ w
 Gsrc/POO/Interfaces/CrudRepositorio/repositorio/ContableRepositorio.java,c\5\c5d91c0186904faadf556749058fa00cdbd722b1
 W
 'src/POO/Genericos/EjemploGenericos.java,3\8\380026ab800208ad7d27cca5b98b5d97677b3940
+m
+=src/POO/Interfaces/CrudRepositorio/modelo/ClientePremium.java,f\9\f94c7dac7aa3f2524d987b4875029ec4fd55fa4f
