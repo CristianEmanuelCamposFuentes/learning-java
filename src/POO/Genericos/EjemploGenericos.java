@@ -22,7 +22,7 @@ public class EjemploGenericos {
         List<Cliente> clientesLista = fromArrayToList(clientesArreglo);
 
         List<Integer> enterosLista = fromArrayToList(enterosArreglo);
-        clientesLista.add(emanuel);
+
         clientesLista.forEach(System.out::println);
 
         enterosLista.forEach(System.out::println);
@@ -36,6 +36,10 @@ public class EjemploGenericos {
         imprimirClientes(clientes);
         imprimirClientes(clientesLista);
         imprimirClientes(clientesPremium);
+
+        System.out.println("Maximo entre 1, 9 y 5: " + maximo(1, 9, 5));
+        System.out.println("Minimo entre 1, 9 y 5: " + minimo(1, 9, 5));
+        System.out.println("Minimo entre hola, chau y hasta luego: " + minimo("hola", "chau", "hasta luego"));
     }
 
     public static <T> List<T> fromArrayToList(T[] array) {
@@ -59,5 +63,30 @@ public class EjemploGenericos {
 
     public static void imprimirClientes(List<? extends Cliente> clientes) {
         clientes.forEach(System.out::println);
+    }
+
+
+    public static <T extends Comparable<T>> T maximo(T a, T b, T c) {
+        // Mayor de tres objetos
+        T max = a;
+        if(b.compareTo(max) > 0){
+            max = b;
+        }
+        if(c.compareTo(max) > 0){
+            max = c;
+        }
+        return max;
+    }
+
+    public static <T extends Comparable> T minimo(T a, T b, T c) {
+        // Menor de tres objetos
+        T min = a;
+        if(b.compareTo(min) < 0){
+            min = b;
+        }
+        if(c.compareTo(min) < 0){
+            min = c;
+        }
+        return min;
     }
 }
