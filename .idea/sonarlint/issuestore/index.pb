@@ -250,3 +250,17 @@ W
 'src/POO/Genericos/EjemploGenericos.java,3\8\380026ab800208ad7d27cca5b98b5d97677b3940
 m
 =src/POO/Interfaces/CrudRepositorio/modelo/ClientePremium.java,f\9\f94c7dac7aa3f2524d987b4875029ec4fd55fa4f
+`
+0src/POO/Genericos/generics/EjemploGenericos.java,e\6\e60f47ea08e5a802a4f2c0e8b633f2767682e2c9
+[
++src/POO/Genericos/genericsclass/Camion.java,4\a\4a7a190eab51ae9187094fe2c09762f0fad1db93
+Y
+)src/POO/Genericos/genericsclass/Auto.java,9\9\990d56b21a1293033797f89e3b8493ad0014a291
+_
+/src/POO/Genericos/genericsclass/Maquinaria.java,3\0\30c79aa90457d401fe16b9a0ecf50a460aa96493
+[
++src/POO/Genericos/genericsclass/Animal.java,1\7\17dc523b5ef772846a4587292496586286429a03
+f
+6src/POO/Genericos/genericsclass/EjemploGenericos2.java,c\9\c93266f4abe125e16655267a02006e5a816c7a5a
+_
+/src/POO/Genericos/genericsclass/TipoAnimal.java,5\7\57e4d09fe53555198067fc581668c8cd4a8b157a
