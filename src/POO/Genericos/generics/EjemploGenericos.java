@@ -1,4 +1,4 @@
-package POO.Genericos;
+package POO.Genericos.generics;
 
 import POO.Interfaces.CrudRepositorio.modelo.Cliente;
 import POO.Interfaces.CrudRepositorio.modelo.ClientePremium;
@@ -89,4 +89,5 @@ public class EjemploGenericos {
         }
         return min;
     }
+
 }
