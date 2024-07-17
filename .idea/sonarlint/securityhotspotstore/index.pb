@@ -264,3 +264,5 @@ _
 /src/POO/Genericos/genericsclass/TipoAnimal.java,5\7\57e4d09fe53555198067fc581668c8cd4a8b157a
 |
 Lsrc/POO/Interfaces/CrudRepositorio/repositorio/AbstractaListRepositorio.java,d\a\da83b78b1f24d152d7c9add537e4827cc21aaf42
+i
+9src/POO/Interfaces/CrudRepositorio/modelo/BaseEntity.java,8\e\8ea81e5ae475e4efc834fc39e855c83e466b891a

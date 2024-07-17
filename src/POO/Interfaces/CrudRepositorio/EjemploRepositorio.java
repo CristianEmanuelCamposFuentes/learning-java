@@ -8,7 +8,7 @@ import java.util.List;
 public class EjemploRepositorio {
 
     public static void main(String[] args) {
-        OrdenablePaginableCrudRepositorio repo = new AbstractaListRepositorio();
+        OrdenablePaginableCrudRepositorio<Cliente> repo = new ClienteListRepositorio();
         repo.crear(new Cliente("Javier", "Perez"));
         repo.crear(new Cliente("Maria", "Lopez"));
         repo.crear(new Cliente("Luis", "Gonzalez"));
@@ -32,12 +32,12 @@ public class EjemploRepositorio {
         System.out.println("Editar un cliente");
         Cliente clActualizado = new Cliente("Maria", "Martinez");
         clActualizado.setId(2);
-        repo.actualizar(clActualizado);
+        repo.editar(clActualizado);
         Cliente clAnterior = repo.porId(2);
         System.out.println(clAnterior);
 
         System.out.println("Listar por ordenacion descendente de apellido");
-        ((OrdenableRepositorio)repo).listar("apellido", Direccion.DESCENDENTE)
+        repo.listar("apellido", Direccion.DESCENDENTE)
                 .forEach(System.out::println);
 
         System.out.println("Eliminar un cliente");

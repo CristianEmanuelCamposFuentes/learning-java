@@ -1,11 +1,12 @@
 package POO.Interfaces.CrudRepositorio.repositorio;
 
+import POO.Interfaces.CrudRepositorio.modelo.BaseEntity;
 import POO.Interfaces.CrudRepositorio.modelo.Cliente;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class AbstractaListRepositorio<T> implements OrdenablePaginableCrudRepositorio<T> {
+public abstract class AbstractaListRepositorio<T extends BaseEntity> implements OrdenablePaginableCrudRepositorio<T> {
 
     protected List<T> dataSource;
 
@@ -18,17 +19,17 @@ public abstract class AbstractaListRepositorio<T> implements OrdenablePaginableC
         return dataSource;
     }
 
-//    @Override
-//    public Cliente porId(Integer id) {
-//        Cliente resultado = null;
-//        for (Cliente cli : dataSource) {
-//            if (cli.getId() != null && cli.getId().equals(id)) {
-//                resultado = cli;
-//                break;
-//            }
-//        }
-//        return resultado;
-//    }
+    @Override
+    public T porId(Integer id) {
+        T resultado = null;
+        for (T cli : dataSource) {
+            if (cli.getId() != null && cli.getId().equals(id)) {
+                resultado = cli;
+                break;
+            }
+        }
+        return resultado;
+    }
 
     @Override
     public void crear(T t) {
@@ -40,44 +41,12 @@ public abstract class AbstractaListRepositorio<T> implements OrdenablePaginableC
         this.dataSource.remove(this.porId(id));
     }
 
-//    @Override
-//    public void actualizar(Cliente cliente) {
-//        Cliente cli = porId(cliente.getId());
-//        cli.setNombre(cliente.getNombre());
-//        cli.setApellido(cliente.getApellido());
-//    }
 
-
-//    @Override
-//    public List<Cliente> listar(String campo, Direccion dir) {
-//        List<Cliente> listaOrdenada = new ArrayList<>(this.dataSource);
-//        listaOrdenada.sort((Cliente a, Cliente b) -> {
-//                    int resultado = 0;
-//                    if (dir == Direccion.ASCENDENTE) {
-//                        resultado = ordenar(campo,a, b);
-//                    } else if (dir == Direccion.DESCENDENTE) {
-//                        resultado = ordenar(campo,b, a);
-//                    }
-//                    return resultado;
-//        });
-//        return listaOrdenada;
-//    }
 
     @Override
     public List<T> listar(int desde, int hasta) {
         return dataSource.subList(desde, hasta);
     }
-
-
-//    public static int ordenar(String campo, Cliente a, Cliente b) {
-//        int resultado = 0;
-//        switch (campo) {
-//            case "id" -> resultado = a.getId().compareTo(b.getId());
-//            case "nombre" -> resultado = a.getNombre().compareTo(b.getNombre());
-//            case "apellido" -> resultado = a.getApellido().compareTo(b.getApellido());
-//        }
-//        return resultado;
-//    }
 
     @Override
     public int count() {
