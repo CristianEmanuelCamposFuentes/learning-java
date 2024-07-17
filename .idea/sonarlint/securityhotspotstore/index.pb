@@ -262,3 +262,5 @@ f
 6src/POO/Genericos/genericsclass/EjemploGenericos2.java,c\9\c93266f4abe125e16655267a02006e5a816c7a5a
 _
 /src/POO/Genericos/genericsclass/TipoAnimal.java,5\7\57e4d09fe53555198067fc581668c8cd4a8b157a
+|
+Lsrc/POO/Interfaces/CrudRepositorio/repositorio/AbstractaListRepositorio.java,d\a\da83b78b1f24d152d7c9add537e4827cc21aaf42

@@ -1,7 +1,7 @@
 package POO.Interfaces.CrudRepositorio.repositorio;
 
-public interface OrdenablePaginableCrudRepositorio extends CrudRepositorio,
-        PaginableRepositorio, OrdenableRepositorio,
+public interface OrdenablePaginableCrudRepositorio<T> extends CrudRepositorio<T>,
+        PaginableRepositorio<T>, OrdenableRepositorio<T>,
         ContableRepositorio {
 
 }

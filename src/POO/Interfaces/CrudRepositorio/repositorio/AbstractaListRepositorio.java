@@ -5,11 +5,11 @@ import POO.Interfaces.CrudRepositorio.modelo.Cliente;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClienteListRepositorio extends AbstractaListRepositorio<Cliente> {
+public abstract class AbstractaListRepositorio<T> implements OrdenablePaginableCrudRepositorio<T> {
 
     protected List<T> dataSource;
 
-    public ClienteListRepositorio() {
+    public AbstractaListRepositorio() {
         this.dataSource = new ArrayList<>();
     }
 
