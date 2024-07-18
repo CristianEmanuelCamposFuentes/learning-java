@@ -1,6 +1,8 @@
-package POO.Interfaces.CrudRepositorio.repositorio;
+package POO.Interfaces.CrudRepositorio.repositorio.lista;
 
 import POO.Interfaces.CrudRepositorio.modelo.Cliente;
+import POO.Interfaces.CrudRepositorio.repositorio.AbstractaListRepositorio;
+import POO.Interfaces.CrudRepositorio.repositorio.Direccion;
 
 import java.util.ArrayList;
 import java.util.List;

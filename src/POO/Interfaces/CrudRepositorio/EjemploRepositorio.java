@@ -2,6 +2,7 @@ package POO.Interfaces.CrudRepositorio;
 
 import POO.Interfaces.CrudRepositorio.modelo.Cliente;
 import POO.Interfaces.CrudRepositorio.repositorio.*;
+import POO.Interfaces.CrudRepositorio.repositorio.lista.ClienteListRepositorio;
 
 import java.util.List;
 

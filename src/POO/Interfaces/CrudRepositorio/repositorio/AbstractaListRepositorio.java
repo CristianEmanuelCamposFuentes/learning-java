@@ -1,7 +1,6 @@
 package POO.Interfaces.CrudRepositorio.repositorio;
 
 import POO.Interfaces.CrudRepositorio.modelo.BaseEntity;
-import POO.Interfaces.CrudRepositorio.modelo.Cliente;
 
 import java.util.ArrayList;
 import java.util.List;

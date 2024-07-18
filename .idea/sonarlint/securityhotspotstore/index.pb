@@ -266,3 +266,11 @@ _
 Lsrc/POO/Interfaces/CrudRepositorio/repositorio/AbstractaListRepositorio.java,d\a\da83b78b1f24d152d7c9add537e4827cc21aaf42
 i
 9src/POO/Interfaces/CrudRepositorio/modelo/BaseEntity.java,8\e\8ea81e5ae475e4efc834fc39e855c83e466b891a
+g
+7src/POO/Interfaces/CrudRepositorio/modelo/Producto.java,9\a\9a9d502c9e4c228b5c792dfab4b0fd78a715964b
+Ä
+Psrc/POO/Interfaces/CrudRepositorio/repositorio/lista/ClienteListRepositorio.java,c\e\ceb37c286a00b18c2d602e7252cece974636e178
+Å
+Qsrc/POO/Interfaces/CrudRepositorio/repositorio/lista/ProductoListRepositorio.java,7\7\77c6759a6f7d84caf5c68b25df9f928db115566c
+r
+Bsrc/POO/Interfaces/CrudRepositorio/EjemploRepositorioProducto.java,7\1\716989ac274eca2704728cd2634cf1be1665cb88
