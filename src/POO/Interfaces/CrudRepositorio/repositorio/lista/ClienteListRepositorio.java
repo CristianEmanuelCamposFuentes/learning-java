@@ -3,6 +3,7 @@ package POO.Interfaces.CrudRepositorio.repositorio.lista;
 import POO.Interfaces.CrudRepositorio.modelo.Cliente;
 import POO.Interfaces.CrudRepositorio.repositorio.AbstractaListRepositorio;
 import POO.Interfaces.CrudRepositorio.repositorio.Direccion;
+import POO.Interfaces.CrudRepositorio.repositorio.excepciones.LecturaAccesoDatoException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,7 @@ public class ClienteListRepositorio extends AbstractaListRepositorio<Cliente> {
 
 
     @Override
-    public void editar(Cliente cliente) {
+    public void editar(Cliente cliente) throws LecturaAccesoDatoException {
         Cliente cli = porId(cliente.getId());
         cli.setNombre(cliente.getNombre());
         cli.setApellido(cliente.getApellido());

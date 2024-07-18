@@ -222,8 +222,6 @@ m
 =src/POO/Interfaces/CrudRepositorio/repositorio/Direccion.java,c\4\c4a5aca08151ac71c21263d2fe55b6f427603f90
 x
 Hsrc/POO/Interfaces/CrudRepositorio/repositorio/PaginableRepositorio.java,c\0\c0ac9c8b245d2e31d9a2d7d029af7980ece30969
-z
-Jsrc/POO/Interfaces/CrudRepositorio/repositorio/ClienteListRepositorio.java,8\8\8843d5136ff953170c800e0af4f4b921dd58ebc3
 _
 /src/POO/Interfaces/Imprenta/modelo/Persona.java,a\9\a93aee20a8621a869ea26258cb428890d5050672
 b
@@ -274,3 +272,9 @@ Psrc/POO/Interfaces/CrudRepositorio/repositorio/lista/ClienteListRepositorio.jav
 Qsrc/POO/Interfaces/CrudRepositorio/repositorio/lista/ProductoListRepositorio.java,7\7\77c6759a6f7d84caf5c68b25df9f928db115566c
 r
 Bsrc/POO/Interfaces/CrudRepositorio/EjemploRepositorioProducto.java,7\1\716989ac274eca2704728cd2634cf1be1665cb88
+ƒ
+Ssrc/POO/Interfaces/CrudRepositorio/repositorio/excepciones/AccesoDatoException.java,e\8\e820a93774b721d38e140eaa4963caec6efa08c4
+Š
+Zsrc/POO/Interfaces/CrudRepositorio/repositorio/excepciones/LecturaAccesoDatoException.java,8\2\827d06142bb9857e2b3d4357db993eed069bf335
+Œ
+\src/POO/Interfaces/CrudRepositorio/repositorio/excepciones/EscrituraAccesoDatoException.java,9\6\965ad03aa79d2e81db180fcfb1410b90e92993e7

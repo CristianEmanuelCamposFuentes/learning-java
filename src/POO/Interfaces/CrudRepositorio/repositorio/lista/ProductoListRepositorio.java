@@ -4,6 +4,7 @@ import POO.Interfaces.CrudRepositorio.modelo.Cliente;
 import POO.Interfaces.CrudRepositorio.modelo.Producto;
 import POO.Interfaces.CrudRepositorio.repositorio.AbstractaListRepositorio;
 import POO.Interfaces.CrudRepositorio.repositorio.Direccion;
+import POO.Interfaces.CrudRepositorio.repositorio.excepciones.LecturaAccesoDatoException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,7 @@ import java.util.List;
 public class ProductoListRepositorio extends AbstractaListRepositorio<Producto> {
 
     @Override
-    public void editar(Producto producto) {
+    public void editar(Producto producto) throws LecturaAccesoDatoException {
         Producto p = porId(producto.getId());
 
         p.setDescripcion(producto.getDescripcion());
