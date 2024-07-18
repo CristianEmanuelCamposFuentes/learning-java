@@ -3,6 +3,7 @@ package POO.Interfaces.CrudRepositorio.repositorio;
 import POO.Interfaces.CrudRepositorio.modelo.BaseEntity;
 import POO.Interfaces.CrudRepositorio.repositorio.excepciones.EscrituraAccesoDatoException;
 import POO.Interfaces.CrudRepositorio.repositorio.excepciones.LecturaAccesoDatoException;
+import POO.Interfaces.CrudRepositorio.repositorio.excepciones.RegistroDuplicadoAccesoDatoException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,6 +43,9 @@ public abstract class AbstractaListRepositorio<T extends BaseEntity> implements 
     public void crear(T t) throws EscrituraAccesoDatoException {
         if (t == null) {
             throw new EscrituraAccesoDatoException("Error al insertar un objeto nulo");
+        }
+        if(this.dataSource.contains(t)){
+            throw new RegistroDuplicadoAccesoDatoException("Error al insertar un objeto duplicado");
         }
         dataSource.add(t);
     }

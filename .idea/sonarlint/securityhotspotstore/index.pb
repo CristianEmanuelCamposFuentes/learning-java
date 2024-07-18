@@ -278,3 +278,5 @@ Ssrc/POO/Interfaces/CrudRepositorio/repositorio/excepciones/AccesoDatoException.
 Zsrc/POO/Interfaces/CrudRepositorio/repositorio/excepciones/LecturaAccesoDatoException.java,8\2\827d06142bb9857e2b3d4357db993eed069bf335
 Œ
 \src/POO/Interfaces/CrudRepositorio/repositorio/excepciones/EscrituraAccesoDatoException.java,9\6\965ad03aa79d2e81db180fcfb1410b90e92993e7
+”
+dsrc/POO/Interfaces/CrudRepositorio/repositorio/excepciones/RegistroDuplicadoAccesoDatoException.java,c\a\cab48d52c62939db0edba0326e814b3d6cd662a9
