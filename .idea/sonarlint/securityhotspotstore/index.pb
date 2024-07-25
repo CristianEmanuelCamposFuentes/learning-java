@@ -282,3 +282,9 @@ Zsrc/POO/Interfaces/CrudRepositorio/repositorio/excepciones/LecturaAccesoDatoExc
 dsrc/POO/Interfaces/CrudRepositorio/repositorio/excepciones/RegistroDuplicadoAccesoDatoException.java,c\a\cab48d52c62939db0edba0326e814b3d6cd662a9
 g
 7src/Collections/Set/Ejemplos/EjemploHashSetAgregar.java,a\9\a97125eebddefc33673032b01324174cf8a24546
+p
+@src/Collections/Set/Ejemplos/EjemploHashSetBuscarDuplicados.java,8\0\80b0ee04a19457b7c465a50fe249da0675b3e0cb
+q
+Asrc/Collections/Set/Ejemplos/EjemploHashSetBuscarDuplicados2.java,2\1\21709b2a62e1394df1171d64cf7664b5acc3e610
+`
+0src/Collections/Set/Ejemplos/EjemploTreeSet.java,5\2\5244240caa3dbd89f595f3bc23776dc56455c1c3
