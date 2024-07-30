@@ -2,14 +2,12 @@ package Collections.Ejemplos.set;
 
 import Collections.Ejemplos.modelo.Alumno;
 
-import java.util.HashSet;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
-public class EjemploHashSetUnicidad {
+public class EjemploListComparableComparator {
     public static void main(String[] args) {
 
-        Set<Alumno> sa = new HashSet<>();
+        List<Alumno> sa = new LinkedList<>();
         sa.add(new Alumno("Platon", 1));
         sa.add(new Alumno("Cristian", 8));
         sa.add(new Alumno("Cintia", 6));
@@ -18,6 +16,10 @@ public class EjemploHashSetUnicidad {
         sa.add(new Alumno("Platon", 8));
         sa.add(new Alumno("Ricardo", 7));
         sa.add(new Alumno("Platon", 1));
+        Collections.sort(sa);
         System.out.println(sa);
+
+        System.out.println("Iterando con Stream forEach");
+        sa.forEach(System.out::println);
     }
 }
