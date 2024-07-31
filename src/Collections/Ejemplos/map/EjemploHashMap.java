@@ -9,7 +9,7 @@ public class EjemploHashMap {
 
     public static void main(String[] args) {
 
-        Map<String, String> persona = new HashMap<>();
+        Map<String, Object> persona = new HashMap<>();
         // Las llaves deben ser unicas, si se repite la clave se sobrescribe el valor
         persona.put(null, "Prueba");
         persona.put(null, "Prueba2");
@@ -20,9 +20,23 @@ public class EjemploHashMap {
         persona.put("edad", "30");
         System.out.println("persona = " + persona);
 
-        System.out.println("persona.get(\"apellidos\") = " + persona.get("apellidos"));
-        System.out.println("persona.get(\"email\") = " + persona.get("email"));
+        Map<String, String> direccion = new HashMap<>();
+        direccion.put("pais", "Argentina");
+        direccion.put("estado", "Cordoba");
+        direccion.put("ciudad", "Bell Ville");
+        direccion.put("calle", "Calle 1");
+        direccion.put("numero", "1055");
+        persona.put("direccion", direccion);
+        System.out.println("persona = " + persona);
 
+        Map<String, String> direccionPersona  = (Map<String, String>) persona.get("direccion");
+        System.out.println("direccionPersona = " + direccionPersona);
+
+        String pais = direccionPersona.get("pais");
+        String ciudad = direccionPersona.get("ciudad");
+        String barrio = direccionPersona.getOrDefault("barrio", "Sin barrio");
+
+        System.out.println("La persona vive en " + pais + ", " + ciudad + ", " + barrio);
         // Algunos metodos importantes
         System.out.println("Values = " + persona.values());
         System.out.println("Keys = " + persona.keySet());
@@ -44,7 +58,7 @@ public class EjemploHashMap {
         System.out.println("persona.isEmpty() = " + persona.isEmpty());
 
         // Nueva persona con nuevos datos de prueba
-        Map<String, String> persona2 = new HashMap();
+        Map<String, Object> persona2 = new HashMap();
         persona2.put("nombre", "Cristian");
         persona2.put("apellidos", "Hernandez");
         persona2.put("email", "cristianhernandez");
@@ -52,13 +66,13 @@ public class EjemploHashMap {
         System.out.println("persona2 = " + persona2);
 
         // Iterar con Collection
-        Collection<String> valores = persona2.values();
-        for (String valor : valores) {
+        Collection<Object> valores = persona2.values();
+        for (Object valor : valores) {
             System.out.println("valor = " + valor);
         }
 
         // Iterar con Map
-        for (Map.Entry<String, String> entry : persona2.entrySet()) {
+        for (Map.Entry<String, Object> entry : persona2.entrySet()) {
             System.out.println("entry.getKey() = " + entry.getKey());
             System.out.println("entry.getValue() = " + entry.getValue());
         }
@@ -68,12 +82,12 @@ public class EjemploHashMap {
             System.out.println("llave = " + llave);
         }
 
-        for(Map.Entry<String, String> par: persona2.entrySet()){
+        for(Map.Entry<String, Object> par: persona2.entrySet()){
             System.out.println(par.getKey() + " = " + par.getValue());
         }
 
         for (String llave: persona2.keySet()) {
-            String valor = persona2.get(llave);
+            Object valor = persona2.get(llave);
             System.out.println("llave = " + llave + ", valor = " + valor);
         }
 
