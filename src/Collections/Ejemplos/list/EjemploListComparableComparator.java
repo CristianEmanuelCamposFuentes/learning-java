@@ -1,8 +1,10 @@
-package Collections.Ejemplos.set;
+package Collections.Ejemplos.list;
 
 import Collections.Ejemplos.modelo.Alumno;
 
 import java.util.*;
+
+import static java.util.Comparator.comparing;
 
 public class EjemploListComparableComparator {
     public static void main(String[] args) {
@@ -16,7 +18,7 @@ public class EjemploListComparableComparator {
         sa.add(new Alumno("Platon", 8));
         sa.add(new Alumno("Ricardo", 7));
         sa.add(new Alumno("Platon", 1));
-        Collections.sort(sa);
+        Collections.sort(sa, comparing(Alumno::getNota).reversed());
         System.out.println(sa);
 
         System.out.println("Iterando con Stream forEach");

@@ -1,4 +1,4 @@
-package Collections.Ejemplos.set;
+package Collections.Ejemplos.list;
 
 import Collections.Ejemplos.modelo.Alumno;
 
@@ -23,7 +23,9 @@ public class EjemploArrayList {
 
         System.out.println(al + ", size = " + al.size());
 
-//        al.remove(new Alumno("Marina", 5));
+        System.out.println("Se elimina Marina ? " + al.remove(new Alumno("Marina", 5)));
+
+        System.out.println("Se elimina el cliente " + al.get(2).getNombre() + " ? " + al.remove(2));
 
         System.out.println(al + ", size = " + al.size());
 
