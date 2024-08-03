@@ -29,14 +29,17 @@ public class EjemploHashMap {
         persona.put("direccion", direccion);
         System.out.println("persona = " + persona);
 
+        String nombre = (String) persona.get("nombre");
+        String apellidos = (String) persona.get("apellidos");
+
         Map<String, String> direccionPersona  = (Map<String, String>) persona.get("direccion");
-        System.out.println("direccionPersona = " + direccionPersona);
 
         String pais = direccionPersona.get("pais");
         String ciudad = direccionPersona.get("ciudad");
         String barrio = direccionPersona.getOrDefault("barrio", "Sin barrio");
+        System.out.println("direccionPersona = " + direccionPersona);
 
-        System.out.println("La persona vive en " + pais + ", " + ciudad + ", " + barrio);
+        System.out.println( nombre + " " + apellidos + " vive en " + pais + ", " + ciudad + ", " + barrio);
         // Algunos metodos importantes
         System.out.println("Values = " + persona.values());
         System.out.println("Keys = " + persona.keySet());
