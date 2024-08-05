@@ -1,4 +1,4 @@
-package Threads.Ejemplos.Threads;
+package Threads.Ejemplos.threads;
 
 public class NombreThread extends Thread{
     public NombreThread(String name) {
